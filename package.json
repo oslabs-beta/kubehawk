@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production nodemon server/server.js",
-		"build": "NODE_ENV=production webpack",
-		"dev": "nodemon server/server.js & NODE_ENV=development webpack serve --open "
+    "build": "NODE_ENV=production webpack",
+    "dev": "nodemon server/server.js & NODE_ENV=development webpack serve --open "
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/oslabs-beta/kubehawk#readme",
   "dependencies": {
+    "@react-spring/web": "^9.7.1",
     "@types/node": "^18.15.11",
     "@types/react-dom": "^18.0.11",
     "@types/webpack": "^5.28.1",

@@ -1,8 +1,15 @@
 import React from "react";
+import Splash from "./components/Splash";
+import AnimatedBox from "./components/AnimatedBox";
+
+
 
 const App = () => {
     return (
-        <h1>Can I live?</h1>
+        <>
+        <Splash />
+        <AnimatedBox />
+        </>
     )
 }
 
