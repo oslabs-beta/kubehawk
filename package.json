@@ -1,0 +1,49 @@
+{
+  "name": "kubehawk",
+  "version": "1.0.0",
+  "description": "A Lightweight Kubernetes Security Monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oslabs-beta/kubehawk.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "security",
+    "monitor"
+  ],
+  "author": "PJ Bannon, Kyle Brant, Spencer White, Steven Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oslabs-beta/kubehawk/issues"
+  },
+  "homepage": "https://github.com/oslabs-beta/kubehawk#readme",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react-dom": "^18.0.11",
+    "@types/webpack": "^5.28.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.4",
+    "@types/react": "^18.0.32",
+    "babel-loader": "^9.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.22",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
+}
