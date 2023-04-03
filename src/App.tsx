@@ -1,10 +1,12 @@
+import ViewSelector from "./components/ViewSelector";
 import "./styles/styles.scss";
 import React from "react";
+import { animated } from '@react-spring/web';
 
 
 const App = () => {
-    return (
-        <h1 className="working">Can I live?</h1>
+    return (     
+        <ViewSelector />
     )
 }
 
