@@ -8,6 +8,7 @@ entry: './index.js',
     path:path.resolve(__dirname, "dist"),
     filename: "bundle.js",
   },
+  devtool: "inline-source-map",
   target: 'web',
   devServer: {
     port: '8080',
@@ -19,10 +20,15 @@ hot: true,
 liveReload: true,
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json'],
+    extensions: [".tsx", ".ts",".jsx", ".js"],
   },
   module: {
     rules: [
+      {
+        test: /\.(js|jsx|ts|tsx)$/,
+        use: ["ts-loader"],
+        exclude: /node_modules/,
+      },
       {
         test: /\.js$|jsx/,
         exclude: /node_modules/,
