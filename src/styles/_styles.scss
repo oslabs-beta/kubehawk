@@ -7,7 +7,11 @@ body,
   margin: 0;
   padding: 0;
   font-family: system-ui;
-  background: lightblue;
+}
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 *,
@@ -69,3 +73,10 @@ body,
   font-size: large;
   margin-right: 5px;
 }
+
+// button {
+//   padding: 8px 16px;
+//   font-size: 16px;
+//   border-radius: 20px;
+  
+// }
