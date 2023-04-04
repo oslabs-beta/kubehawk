@@ -8,6 +8,11 @@ body,
   padding: 0;
   font-family: system-ui;
 }
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 *,
 *:after,
@@ -65,4 +70,12 @@ body,
   justify-content: center;
   font-size: large;
   margin-top: 25%;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  
+
 }

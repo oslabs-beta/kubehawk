@@ -1,14 +1,16 @@
 import React from 'react'
+import hawkGIF from './assets/curious.gif'
 
 function Splash() {
   return (
     <div id='splash-main'>
+
       <div id="splash-title">
-        <h1>KubeHawk Security Monitor</h1>
-        <h2>A Lightweight Kubernetes Security Monitor</h2>
+        <h1>KubeHawk</h1>
+        <h2>A Kubernetes Security Monitor</h2>
     </div>
     <div id="enter">
-    <button>ENTER THE KUBE</button>
+    <button >Dashboard</button>
     </div>
     </div>
 
