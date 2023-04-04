@@ -1,13 +1,18 @@
 import "./styles/application.scss";
 import React from "react";
 import Splash from "./components/Splash";
-import { Login } from "./components/Login";
-import Landing from "./components/Landing";
+import ViewSelector from "./components/ViewSelector";
+import Navbar from "./components/Navbar";
 
 const App = () => {
     return (
-        <Splash />
-        // <Landing />
+        <>
+            <Navbar />
+            <div className="wrapper">
+                {/* <ViewSelector name={'CPU Stats'}/> */}
+                <ViewSelector name={'Security'}/>
+            </div>
+        </>
     )
 }
 
