@@ -11,15 +11,15 @@ import InfoPanel from './InfoPanel'
 import Nameplate from './Nameplate'
 
 
-export default function ViewSelector() {
+export default function ViewSelector(props) {
     const [open, set] = useState(false)
     //will be uncommenting this once the onclick can handle changing nameplate name
     // const [nameplate, setNameplate] = useState('');
 
-    let exampleProp = 'CPU Stats';
+    // let exampleProp = 'CPU Stats';
     const data = [
       //can change the title prop to match that of the box clicked. Do this in the onclick function
-        {component: < Nameplate title={exampleProp}/>},
+        // {component: < Nameplate title={exampleProp}/>},
         //cluster ip, name of cluster, and type of data as props, array or rest of url in component
         {component: < InfoPanel />}
       ];
@@ -56,17 +56,7 @@ export default function ViewSelector() {
         style={{ ...rest, width: size, height: size }}
         className='container'
         onClick={() => set(open => !open)}>
-        {transition((style, item) => (
-          <animated.div className='item' style={style}>
-            {item.component}
-          </animated.div>
-        ))}
-      </animated.div>
-      <div>I am filling space</div>
-      <animated.div
-        style={{ ...rest, width: size, height: size }}
-        className='container'
-        onClick={() => set(open => !open)}>
+        < Nameplate title={props.name}/>
         {transition((style, item) => (
           <animated.div className='item' style={style}>
             {item.component}
