@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './index.js',
-  mode: 'development',
+  mode: process.env.NODE_ENV,
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -18,6 +18,11 @@ module.exports = {
     open: true,
     hot: true,
     liveReload: true,
+    proxy: {
+      '/': {
+        target: 'http://localhost:3000/',
+      }
+  },
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],
@@ -34,6 +39,26 @@ module.exports = {
           },
         },
       },
+      {
+        test: /scss$/,
+        exclude: /node_modules/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader'
+    }
     ],
   },
   plugins: [
