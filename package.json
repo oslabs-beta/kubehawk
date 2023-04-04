@@ -39,6 +39,8 @@
     "radix-ui": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-particle-backgrounds": "^1.0.4",
+    "react-particles-js": "^3.6.0",
     "react-svg": "^16.1.7",
     "stitches": "^1.2.11",
     "style-loader": "^3.3.2",
