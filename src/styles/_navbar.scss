@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #add8e6; /* Light blue */
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar logo */
+.navbar .logo {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navbar menu items */
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  padding: 0 1rem;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/* Navbar menu items hover effect */
+.navbar ul li a:hover {
+  color: #ffb6c1; /* Light pink */
+}
