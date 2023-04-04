@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Splash() {
   return (
     <div id='splash-main'>
@@ -8,7 +9,7 @@ function Splash() {
         <h2>A Lightweight Kubernetes Security Monitor</h2>
     </div>
     <div id="enter">
-        <button id='enter'>Dashboard</button>
+    <button>ENTER THE KUBE</button>
     </div>
     </div>
   )
