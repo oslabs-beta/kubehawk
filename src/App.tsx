@@ -1,12 +1,12 @@
-import ViewSelector from "./components/ViewSelector";
-import "./styles/styles.scss";
+import "./styles/application.scss";
 import React from "react";
-import { animated } from '@react-spring/web';
-
+import Splash from "./components/Splash";
 
 const App = () => {
-    return (     
-        <ViewSelector />
+    return (
+        <>
+        <Splash />
+        </>
     )
 }
 
