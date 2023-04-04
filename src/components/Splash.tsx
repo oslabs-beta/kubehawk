@@ -3,6 +3,7 @@ import React from 'react'
 function Splash() {
   return (
     <div id='splash-main'>
+      <div id="splash-title">
         <h1>KubeHawk Security Monitor</h1>
         <h2>A Lightweight Kubernetes Security Monitor</h2>
     </div>
@@ -10,6 +11,7 @@ function Splash() {
     <button>ENTER THE KUBE</button>
     </div>
     </div>
+
   )
 }
 
