@@ -2,38 +2,59 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #add8e6; /* Light blue */
-  padding: 1rem;
   font-family: 'Arial', sans-serif;
+  height: 8vh;
+  color: #000000;
+  border: .25px solid rgb(229, 225, 225);
+
+  #left-nav{
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    
+
+    img{
+      width: 30px;
+    }
+  }
+
+  .logo{
+    display: flex;
+    font-size: 1.5rem;
+
+    #logo{
+      margin-top: 10px;
+      height: 60px;
+    }
+
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 18px 0;
+  }
+
+  li {
+    padding: 0 1rem;
+    text-decoration: none;
+  }
+button {
+  height: 30px;
+  width: 120px;
+  font-size: 1em;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: $button-red;
+  color:white;
+  border: transparent;
 }
 
-/* Navbar logo */
-.navbar .logo {
-  font-size: 1.5rem;
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
+  buttton:hover{
+    background-color: #17171745;
+    border-radius: 0;
+  }
+
 }
 
-/* Navbar menu items */
-.navbar ul {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar ul li {
-  padding: 0 1rem;
-}
-
-.navbar ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1.1rem;
-}
-
-/* Navbar menu items hover effect */
-.navbar ul li a:hover {
-  color: #ffb6c1; /* Light pink */
-}

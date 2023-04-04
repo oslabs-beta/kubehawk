@@ -1,18 +1,23 @@
 import React from 'react'
+import logo from './assets/logo.png'
+import menu from './assets/menu.png'
 
 function Navbar() {
   return (
     <div className='navbar'>
       <div className='logo'>
-        Logo?
+    <img id='logo' src={logo} alt="logo"/> 
+    <p>KubeHawk</p>
       </div>
-      <ul>
-        <li>A list item</li>
-        <li>Another list item</li>
-        <li>A third list item</li>
-        <li><a>an 'a' item</a></li>
+      <div id='left-nav'>
+<button>Get KubeHawk</button>
+       <ul>
+        <li>Login</li>
+        <li>Help</li>
       </ul>
+        </div>
     </div>
+
   )
 }
 
