@@ -62,6 +62,17 @@ export default function ViewSelector() {
           </animated.div>
         ))}
       </animated.div>
+      <div>I am filling space</div>
+      <animated.div
+        style={{ ...rest, width: size, height: size }}
+        className='container'
+        onClick={() => set(open => !open)}>
+        {transition((style, item) => (
+          <animated.div className='item' style={style}>
+            {item.component}
+          </animated.div>
+        ))}
+      </animated.div>
     </div>
   )
 }
