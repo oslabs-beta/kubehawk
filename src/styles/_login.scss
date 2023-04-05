@@ -1,14 +1,26 @@
+
+.onboard-page{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(245, 237, 237);
+height: 100%;
+width: 100%;
+
 .base-container {
     // width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 60vh;
+    border: 2px solid rgba(157, 157, 157, 0.174);
+    background-color: rgb(226, 228, 232);
   
     .header {
       font-size: 24px;
       font-family: "Open Sans", sans-serif;
+      margin: 40px 0 20px 0;
     }
   
     .content {
@@ -61,8 +73,20 @@
           }
         }
       }
+
     }
     .footer {
       margin-top: 3em;
     }
+    .btn {
+      height: 45px;
+      width: 150px;
+      font-size: 1em;
+      border-radius: 10px;
+      margin: 10px;
+      background-color: #3f71c0;
+      color:white;
+      border: transparent;
+    }
   }
+}

@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from './assets/logo.png'
-import menu from './assets/menu.png'
 
 function Navbar() {
   return (

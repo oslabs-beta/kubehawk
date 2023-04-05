@@ -8,8 +8,9 @@ function GetKlusterInfo() {
     navigate('/dashboard')
   }
   return (
+    <div className="onboard-page">
     <div className="base-container" >
-    <div className="header">Enter your Kubernetes Cluster Info</div>
+    <div className="header">Tell us about your Cluster</div>
     <div className="content">
       <div className="form">
         <div className="form-group">
@@ -27,6 +28,7 @@ function GetKlusterInfo() {
         Continue 🦅
       </button>
     </div>
+  </div>
   </div>
   )
 }

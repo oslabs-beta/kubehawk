@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import {logo} from './assets/logo.png'
 
 
   
@@ -10,6 +11,7 @@ export function Login() {
       navigate('/cluster')
     }
     return (
+      <div className="onboard-page">
       <div className="base-container" >
         <div className="header">Login</div>
         <div className="content">
@@ -29,6 +31,7 @@ export function Login() {
             Login
           </button>
         </div>
+      </div>
       </div>
     );
   }
