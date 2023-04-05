@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 
 import {
-    createBrowserRouter,
+    createHashRouter,
     RouterProvider,
 } from "react-router-dom";
 
@@ -16,7 +16,7 @@ import Splash from './src/components/Splash';
 import GetKlusterInfo from './src/components/GetKlusterInfo';
 import ViewSelector from './src/components/ViewSelector';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <Landing />,
