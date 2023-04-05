@@ -6,9 +6,13 @@ import GetKlusterInfo from './GetKlusterInfo'
 import { Login } from './Login'
 
 function Landing() {
+  const navItems = ['Login', 'help'].map((item, i)=>{
+    return <li key={item + i}>{item}</li>;
+  })
+
   return (
-    <div className='landing'>
-            <Navbar />
+    <div className='landing' >
+            <Navbar navItems={navItems} kubeButton = {<button>Get KubeHawk</button>}/>
           <div id="landing-login">
             <LandCopy />
             <div id='login-image'>

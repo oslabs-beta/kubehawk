@@ -1,7 +1,11 @@
 import React from 'react'
 import logo from './assets/logo.png'
+import NavbarProps from '../types.ts'
 
-function Navbar() {
+function Navbar(props: NavbarProps) {
+
+  const kubeButton = props.kubeButton || '';
+
   return (
     <div className='navbar'>
       <div className='logo'>
@@ -9,10 +13,9 @@ function Navbar() {
     <p>KubeHawk</p>
       </div>
       <div id='left-nav'>
-<button>Get KubeHawk</button>
+        {kubeButton}
        <ul>
-        <li>Login</li>
-        <li>Help</li>
+      {props.navItems}
       </ul>
         </div>
     </div>
