@@ -15,6 +15,7 @@ import Landing from './src/components/Landing';
 import Splash from './src/components/Splash';
 import GetKlusterInfo from './src/components/GetKlusterInfo';
 import ViewSelector from './src/components/ViewSelector';
+import Dashboard from './src/components/Dashboard';
 
 const router = createHashRouter([
     {
@@ -24,15 +25,18 @@ const router = createHashRouter([
     },
     {
         path: "login",
-        element: <Login />
+        element: <Login />,
+        errorElement: <Error />
     },
     {
         path: "cluster",
-        element: <GetKlusterInfo />
+        element: <GetKlusterInfo />,
+        errorElement: <Error />
     },
     {
         path: "dashboard",
-        element: <ViewSelector />
+        element: <Dashboard />,
+        errorElement: <Error />
     }
 ]);
 
