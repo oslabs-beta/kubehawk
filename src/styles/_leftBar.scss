@@ -1,5 +1,51 @@
-#left-bar{
+.leftbar {
+    background-color: #3c3c3c;
+    width: 20vw;
     height: 100%;
-    width: 30vw;
-    background-color: red;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    li {
+      position: relative;
+      width: 100%;
+  
+      a {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+  
+      &:hover {
+        a {
+          background-color: #555;
+          width: 100%;
+          border-radius: 0 20px 20px 0;
+        }
+  
+        a span {
+          display: inline;
+        }
+      }
+    }
+  
+    li a span {
+      display: none;
+      margin-left: 10px;
+    }
+  
+    li a .fa-fw {
+      margin-right: 6px;
+    }
+  }
+  

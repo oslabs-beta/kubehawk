@@ -1,18 +1,38 @@
 import React from 'react'
-import shield from './assets/icons/shield.png'
-import {MdOutlineSecurity, MdOutlineSettings} from 'react-icons/md'
-import {FaUsers} from 'react-icons/fa'
-import {SiKubernetes} from 'react-icons/si'
+import {FaChartLine, FaCog, FaHome, FaUsers} from 'react-icons/fa'
+
 
 function LeftBar() {
   return (
-      <div id='left-bar'>
-      <p><MdOutlineSecurity /> Security</p>
-      <p><FaUsers /> Users</p>
-      <p><SiKubernetes /> Cluster Metrics</p>
-      <p><MdOutlineSettings /> Setting</p>
-      </div>
-  )
+    <nav className="leftbar">
+      <ul>
+        <li>
+          <a href="#">
+          <FaHome />
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <FaChartLine/>
+            <span>Analytics</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <FaCog/>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <FaUsers />
+            <span>Profile</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-export default LeftBar
+export default LeftBar;

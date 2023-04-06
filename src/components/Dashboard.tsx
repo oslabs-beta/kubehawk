@@ -1,15 +1,14 @@
 import React from 'react';
-import ViewSelector from './ViewSelector';
 import Navbar from './Navbar';
-import Roleview from './Roleview';
 import LeftBar from './LeftBar';
 
 function Dashboard() {
   return (
     <div id="dash-container">
       <Navbar />
-      <div id="dash-body">
+      <div id="body-nav">
         <LeftBar />
+      <div id="dash-body">
         <div>
           <div className="row">
             <div className="column">
@@ -24,13 +23,14 @@ function Dashboard() {
             </div>
           </div>
           <div className="row">
-            <iframe src="http://35.232.26.177/d-solo/a164a7f0339f99e89cea5cb47e9be617/kubernetes-compute-resources-workload?orgId=1&refresh=10s&from=1680724321046&to=1680727921046&theme=light&panelId=1" width="450" height="200" frameBorder="0"></iframe>
+            <iframe src="http://35.232.26.177/d-solo/a164a7f0339f99e89cea5cb47e9be617/kubernetes-compute-resources-workload?orgId=1&refresh=10s&from=1680724321046&to=1680727921046&theme=light&panelId=1" width="900" height="250" frameBorder="0"></iframe>
           </div>
           <div className="row">
-            <iframe src="http://35.232.26.177/d-solo/ff635a025bcfea7bc3dd4f508990a3e9/kubernetes-networking-cluster?orgId=1&refresh=10s&from=1680724478431&to=1680728078431&theme=light&panelId=3" width="450" height="200" frameBorder="0"></iframe>
+            <iframe src="http://35.232.26.177/d-solo/ff635a025bcfea7bc3dd4f508990a3e9/kubernetes-networking-cluster?orgId=1&refresh=10s&from=1680724478431&to=1680728078431&theme=light&panelId=3" width="900" height="250" frameBorder="0"></iframe>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
