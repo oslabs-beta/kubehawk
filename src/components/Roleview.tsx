@@ -11,7 +11,7 @@ import InfoPanel from './InfoPanel'
 import Nameplate from './Nameplate'
 
 
-export default function ViewSelector(props) {
+export default function Roleview(props) {
     const [open, set] = useState(false)
     //will be uncommenting this once the onclick can handle changing nameplate name
     // const [nameplate, setNameplate] = useState('');
@@ -51,23 +51,11 @@ export default function ViewSelector(props) {
   ])
 
   return (
-    <div className='wrapper'>
       <animated.div
         style={{ ...rest, width: size, height: size }}
         className='container'
         onClick={() => set(open => !open)}>
-        < Nameplate title={props.name}/>
-        {transition((style, item) => (
-          <animated.div className='item' style={style}>
-            <div>Hello </div>
-          </animated.div>
-        ))}
-        {transition((style, item) => (
-          <animated.div className='item' style={style}>
-            <div>Hello </div>
-          </animated.div>
-        ))}
+            <div><h1>Stuff</h1></div>
       </animated.div>
-    </div>
   )
 }

@@ -43,9 +43,28 @@
         border-radius: 20px;
         margin: 10px;
         background-color: $button-red;
-        color:white;
+        color: white;
         border: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out; /* Add transition effect */
       }
+      
+      /* Change the background color of the button on hover */
+      button:hover {
+        background-color: #D43932;
+      }
+      
+      /* Add a shadow to the button on hover */
+      button:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      /* Add a slightly larger shadow on active */
+      button:active {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transform: translateY(2px);
+      }
+      
       
 }
 // display: flex;
