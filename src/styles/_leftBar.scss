@@ -1,11 +1,12 @@
 .leftbar {
-    background-color: #3c3c3c;
-    width: 20vw;
+    background-color: #fbfcfe;
+    width: 10vw;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 30px;
+    justify-content: flex-start;
+    margin-right: 30px;
+    padding: 0;
   
     ul {
       list-style-type: none;
@@ -21,16 +22,19 @@
         display: flex;
         align-items: center;
         padding: 10px 15px;
-        color: #fff;
+        color: #4e4d4d;
         text-decoration: none;
         transition: all 0.3s ease;
+        font-size: 24px;
+        width: 100%;
+        border-radius: 0; /* Remove border-radius */
       }
   
       &:hover {
         a {
           background-color: #555;
-          width: 100%;
           border-radius: 0 20px 20px 0;
+          color: #fbfcfe;
         }
   
         a span {
@@ -40,7 +44,6 @@
     }
   
     li a span {
-      display: none;
       margin-left: 10px;
     }
   
