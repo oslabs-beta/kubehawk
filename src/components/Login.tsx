@@ -1,19 +1,19 @@
 import React from "react";
-import { ReactSVG } from 'react-svg'
+import { useNavigate } from "react-router-dom";
 
 
-export class Login extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  
+export function Login() {
+    const navigate = useNavigate()
 
-  render() {
+    function handleLoginClick(){
+      navigate('/cluster')
+    }
     return (
-      <div className="base-container" ref={this.props.containerRef}>
+      <div className="onboard-page">
+      <div className="base-container" >
         <div className="header">Login</div>
         <div className="content">
-          <div className="image">
-          </div>
           <div className="form">
             <div className="form-group">
               <label htmlFor="username">Username</label>
@@ -26,11 +26,11 @@ export class Login extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <button type="button" className="btn">
+          <button type="button" className="btn" onClick={handleLoginClick}>
             Login
           </button>
         </div>
       </div>
+      </div>
     );
   }
-}
