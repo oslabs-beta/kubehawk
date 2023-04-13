@@ -2,9 +2,10 @@ import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import flareData from './flare.json';
 
-const ForceGraph = () => {
+const ForceGraph = (props) => {
   const chartRef = useRef();
-  const flareJson = flareData;
+  // eslint-disable-next-line react/prop-types
+  const flareJson = props.roles;
   const { nodes, links } = convertToHierarchy(flareJson);
 
   function convertToHierarchy(jsonData) {

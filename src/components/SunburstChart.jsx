@@ -3,39 +3,11 @@ import * as d3 from 'd3';
 import Sunburst from 'sunburst-chart';
 import flareData from './flare.json';
 
-const SunburstChart = () => {
+const SunburstChart = (props) => {
   const chartRef = useRef();
-  const flareJson = flareData;
+  // eslint-disable-next-line react/prop-types
+  const flareJson = props.roles;
   const heirarchyData = convertToHierarchy(flareJson);
-
-  // function convertToHierarchy(jsonData) {
-  //   const data = jsonData;
-  //   const hierarchy = { name: "root", children: [] };
-  
-  //   data.items.forEach(item => {
-  //     if (!item.subjects || item.subjects.length === 0) {
-  //       return;
-  //     }
-  
-  //     const itemNode = {
-  //       name: item.metadata.name,
-  //       children: [],
-  //     };
-  
-  //     item.subjects.forEach(subject => {
-  //       const subjectNode = {
-  //         name: subject.name,
-  //         kind: subject.kind,
-  //         size: 1, // Assign a size value if needed, e.g., based on the subject data
-  //       };
-  //       itemNode.children.push(subjectNode);
-  //     });
-  
-  //     hierarchy.children.push(itemNode);
-  //   });
-  
-  //   return hierarchy;
-  // }
   
   function convertToHierarchy(jsonData) {
     const data = jsonData;
@@ -78,9 +50,6 @@ const SunburstChart = () => {
   
     return rootNode;
   }
-  
-  
-  
 
   useEffect(() => {
 
@@ -97,7 +66,6 @@ const SunburstChart = () => {
   }, []);
 
   return <div ref={chartRef} />;
-
   
 };
 

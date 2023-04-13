@@ -40,6 +40,7 @@
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.9",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.10.0",
     "sort-by": "^0.0.2",
