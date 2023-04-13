@@ -3,11 +3,12 @@ import * as d3 from 'd3';
 
 import data from './flare.json';
 
-function TreeGraph() {
+function TreeGraph(props) {
   const ref = useRef();
 
   useEffect(() => {
-    const hierarchy = convertToHierarchy(data);
+    // eslint-disable-next-line react/prop-types
+    const hierarchy = convertToHierarchy(props.roles);
     const root = d3.hierarchy(hierarchy);
 
     const treeLayout = d3.tree().size([window.innerHeight, window.innerWidth]);
