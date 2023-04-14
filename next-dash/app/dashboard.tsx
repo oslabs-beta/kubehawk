@@ -2,6 +2,8 @@
 
 import Navbar from "./navbar";
 import LeftBar from "./LeftBar";
+import ScrollableTabsButtonPrevent from "./TabsBar";
+import TabsBar from "./TabsBar";
 
 
 
@@ -10,7 +12,7 @@ function Dashboard() {
   return (
     <div id="dash-container">
       <Navbar/>
-      
+      <TabsBar />
       <div id="body-nav">
         <LeftBar />
       <div id="dash-body">
