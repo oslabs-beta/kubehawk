@@ -1,4 +1,4 @@
-function createFrames(id:string, name: string, size: number): string[] {
+export function createFrames(id:string, name: string, size: number): string[] {
     const frames: string[] = [];
     //Updates iFrame time to the most recent 1 hour interval
     const currentTime:number = Date.now();
@@ -12,7 +12,7 @@ function createFrames(id:string, name: string, size: number): string[] {
     return frames
 }
   
-const grafanaUrls = {
+export const grafanaUrls = {
     alertManager: {
       id: 'alertmanager-overview',
       name: 'alertmanager-overview',
