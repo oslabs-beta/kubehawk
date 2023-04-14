@@ -1,15 +1,7 @@
-
-import Landing from "./Landing";
+import Dashboard from "./dashboard";
 
 
 export default function Page() {
-    return (
-        <main>
-<Landing />
-        </main>
+    return <main><Dashboard/></main>
 
-
-
-    )
-
-}
+  }

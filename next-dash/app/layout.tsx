@@ -1,11 +1,7 @@
-import '../styles/application.scss'
+import styles from './styles.module.css';
 
-export default function RootLayout({ children }) {
-    return (
-      <html lang="en">
-        <body >
-            {children}
-            </body>
-      </html>
-    );
-  }
+export default function DashboardLayout({ children }: {
+  children: React.ReactNode
+}) {
+  return <section className={styles.dashboard}>{children}</section>;
+}
