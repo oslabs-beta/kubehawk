@@ -9,7 +9,7 @@ module.exports = defineConfig({
 
   component: {
     devServer: {
-      framework: "react",
+      framework: "next",
       bundler: "webpack",
     },
   },
