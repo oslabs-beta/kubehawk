@@ -1,9 +1,10 @@
 "use client"
 
+
 import Navbar from "./navbar";
 import LeftBar from "./LeftBar";
-import ScrollableTabsButtonPrevent from "./TabsBar";
 import TabsBar from "./TabsBar";
+import BasicSpeedDial from "./SpeedDial";
 
 
 
@@ -13,6 +14,7 @@ function Dashboard() {
     <div id="dash-container">
       <Navbar/>
       <TabsBar />
+      <BasicSpeedDial />
       <div id="body-nav">
         <LeftBar />
       <div id="dash-body">

@@ -1,5 +1,3056 @@
 self.__RSC_MANIFEST={
-  "ssrModuleMapping": {},
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/app-call-server.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/app-call-server.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/app-call-server.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/app-call-server.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/client-hook-in-server-component-error.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/client-hook-in-server-component-error.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/client-hook-in-server-component-error.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/client-hook-in-server-component-error.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/is-next-router-error.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/is-next-router-error.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/is-next-router-error.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/is-next-router-error.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/navigation.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/navigation.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/navigation.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/navigation.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/not-found.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/not-found.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/not-found.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/not-found.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/CodeFrame.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/CodeFrame.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/CodeFrame.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/CodeFrame.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/index.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/index.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/index.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/styles.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/styles.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/styles.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame/styles.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/Dialog.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/Dialog.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/Dialog.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/Dialog.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogBody.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogBody.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogBody.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogBody.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogContent.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogContent.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogContent.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogContent.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogHeader.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogHeader.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogHeader.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/DialogHeader.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/index.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/index.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/index.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/styles.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/styles.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/styles.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog/styles.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/LeftRightDialogHeader.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/index.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader/styles.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/Overlay.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/Overlay.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/Overlay.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/Overlay.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/body-locker.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/body-locker.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/body-locker.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/body-locker.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/index.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/index.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/index.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/maintain--tab-focus.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/maintain--tab-focus.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/maintain--tab-focus.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/maintain--tab-focus.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/styles.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/styles.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/styles.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay/styles.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/ShadowPortal.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/ShadowPortal.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/ShadowPortal.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/ShadowPortal.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/EditorLink.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/EditorLink.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/EditorLink.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/EditorLink.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/Terminal.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/Terminal.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/Terminal.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/Terminal.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/index.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/index.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/index.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/styles.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/styles.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/styles.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal/styles.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/Toast.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/Toast.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/Toast.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/Toast.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/index.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/index.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/index.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/styles.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/styles.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/styles.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast/styles.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/VersionStalenessInfo.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/VersionStalenessInfo.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/VersionStalenessInfo.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/VersionStalenessInfo.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/index.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/index.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/index.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/styles.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/styles.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/styles.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo/styles.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/hot-linked-text/get-words-and-whitespaces.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/hot-linked-text/get-words-and-whitespaces.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/hot-linked-text/get-words-and-whitespaces.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/hot-linked-text/get-words-and-whitespaces.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/hot-linked-text/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/hot-linked-text/index.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/hot-linked-text/index.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/components/hot-linked-text/index.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/BuildError.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/BuildError.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/BuildError.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/BuildError.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/Errors.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/Errors.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/Errors.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/Errors.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RootLayoutError.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RootLayoutError.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RootLayoutError.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RootLayoutError.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/CallStackFrame.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/CallStackFrame.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/CallStackFrame.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/CallStackFrame.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/ComponentStackFrameRow.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/ComponentStackFrameRow.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/ComponentStackFrameRow.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/ComponentStackFrameRow.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/FrameworkIcon.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/FrameworkIcon.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/FrameworkIcon.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/FrameworkIcon.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/GroupedStackFrames.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/GroupedStackFrames.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/GroupedStackFrames.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/GroupedStackFrames.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/index.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/index.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/index.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError/index.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/error-overlay-reducer.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/error-overlay-reducer.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/error-overlay-reducer.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/error-overlay-reducer.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/get-socket-protocol.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/get-socket-protocol.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/get-socket-protocol.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/get-socket-protocol.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/getErrorByType.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/getErrorByType.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/getErrorByType.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/getErrorByType.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/group-stack-frames-by-framework.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/group-stack-frames-by-framework.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/group-stack-frames-by-framework.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/group-stack-frames-by-framework.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/nodeStackFrames.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/nodeStackFrames.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/nodeStackFrames.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/nodeStackFrames.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/noop-template.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/noop-template.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/noop-template.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/noop-template.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/parse-component-stack.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/parse-component-stack.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/parse-component-stack.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/parse-component-stack.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/parseStack.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/parseStack.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/parseStack.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/parseStack.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/stack-frame.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/stack-frame.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/stack-frame.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/stack-frame.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-error-handler.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-error-handler.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-error-handler.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-error-handler.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-open-in-editor.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-open-in-editor.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-open-in-editor.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-open-in-editor.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-websocket.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-websocket.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-websocket.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/use-websocket.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/hooks/use-on-click-outside.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/hooks/use-on-click-outside.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/hooks/use-on-click-outside.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/hooks/use-on-click-outside.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/icons/CloseIcon.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/icons/CloseIcon.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/icons/CloseIcon.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/icons/CloseIcon.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/Base.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/Base.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/Base.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/Base.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/ComponentStyles.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/ComponentStyles.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/ComponentStyles.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/ComponentStyles.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/CssReset.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/CssReset.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/CssReset.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/react-dev-overlay/internal/styles/CssReset.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/redirect.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/get-segment-value.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/get-segment-value.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/get-segment-value.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/get-segment-value.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/dev/error-overlay/format-webpack-messages.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/dev/error-overlay/format-webpack-messages.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/dev/error-overlay/format-webpack-messages.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/dev/error-overlay/format-webpack-messages.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/no-ssr-error.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/no-ssr-error.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/no-ssr-error.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "NEXT_DYNAMIC_NO_SSR_CODE": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/no-ssr-error.js",
+        "name": "NEXT_DYNAMIC_NO_SSR_CODE",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      },
+      "__esModule": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/no-ssr-error.js",
+        "name": "__esModule",
+        "chunks": [
+          "webpack:webpack"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/add-base-path.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router-announcer.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router-announcer.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router-announcer.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router-announcer.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router-headers.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router-headers.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router-headers.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router-headers.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/hooks-server-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/hooks-server-context.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/hooks-server-context.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/hooks-server-context.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/infinite-promise.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/infinite-promise.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/infinite-promise.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/infinite-promise.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/match-segments.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/match-segments.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/match-segments.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/match-segments.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/not-found-boundary.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/not-found-boundary.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/not-found-boundary.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-bailout.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-bailout.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-bailout.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-bailout.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/LeftBar.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/LeftBar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/LeftBar.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/LeftBar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/SpeedDial.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/SpeedDial.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/SpeedDial.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/SpeedDial.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/TabsBar.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/TabsBar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/TabsBar.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/TabsBar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/dashboard.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/dashboard.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/dashboard.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/dashboard.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    }
+  },
   "edgeSSRModuleMapping": {},
   "cssFiles": {},
   "clientModules": {
@@ -3856,6 +6907,2774 @@ self.__RSC_MANIFEST={
       "name": "useServerInsertedHTML",
       "chunks": [
         "webpack:webpack"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/add-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/add-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/add-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/add-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/add-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/add-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/app-router-announcer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-announcer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/app-router-announcer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-announcer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/app-router-announcer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-announcer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/app-router-announcer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-announcer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/app-router-announcer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-announcer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/app-router-announcer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-announcer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/app-router-headers.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-headers.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/app-router-headers.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-headers.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/app-router-headers.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-headers.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/app-router-headers.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-headers.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/app-router-headers.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-headers.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/app-router-headers.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router-headers.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/app-router.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/app-router.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/app-router.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/app-router.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/async-local-storage.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/async-local-storage.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/async-local-storage.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/async-local-storage.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/async-local-storage.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/async-local-storage.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/async-local-storage.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/async-local-storage.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/async-local-storage.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/async-local-storage.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/async-local-storage.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/async-local-storage.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/error-boundary.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/error-boundary.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/error-boundary.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/hooks-server-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/hooks-server-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/hooks-server-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/hooks-server-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/hooks-server-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/hooks-server-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/hooks-server-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/hooks-server-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/hooks-server-context.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/hooks-server-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/hooks-server-context.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/hooks-server-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/infinite-promise.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/infinite-promise.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/infinite-promise.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/infinite-promise.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/infinite-promise.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/infinite-promise.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/infinite-promise.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/infinite-promise.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/infinite-promise.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/infinite-promise.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/infinite-promise.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/infinite-promise.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/layout-router.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/layout-router.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/layout-router.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/layout-router.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/match-segments.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/match-segments.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/match-segments.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/match-segments.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/match-segments.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/match-segments.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/match-segments.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/match-segments.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/match-segments.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/match-segments.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/match-segments.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/match-segments.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/not-found-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/not-found-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/not-found-boundary.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/not-found-boundary.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/not-found-boundary.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/not-found-boundary.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/not-found-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/redirect-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/redirect-boundary.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/redirect-boundary.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/render-from-template-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/render-from-template-context.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/apply-flight-data.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/apply-flight-data.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/apply-flight-data.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/apply-flight-data.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/apply-flight-data.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/apply-flight-data.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-flight-data.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/apply-router-state-patch-to-tree.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/apply-router-state-patch-to-tree.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/apply-router-state-patch-to-tree.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/apply-router-state-patch-to-tree.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/compute-changed-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/compute-changed-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/compute-changed-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/compute-changed-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/compute-changed-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/compute-changed-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/compute-changed-path.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-href-from-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-href-from-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-href-from-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-href-from-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-href-from-url.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-href-from-url.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-href-from-url.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-initial-router-state.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-initial-router-state.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-initial-router-state.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-initial-router-state.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-optimistic-tree.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-optimistic-tree.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-optimistic-tree.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-optimistic-tree.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-record-from-thenable.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-record-from-thenable.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-record-from-thenable.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-record-from-thenable.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-router-cache-key.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-router-cache-key.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/create-router-cache-key.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/create-router-cache-key.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fill-cache-with-data-property.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fill-cache-with-data-property.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fill-cache-with-data-property.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-data-property.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fill-cache-with-new-subtree-data.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fill-cache-with-new-subtree-data.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fill-cache-with-new-subtree-data.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-cache-with-new-subtree-data.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fill-lazy-items-till-leaf-with-head.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/handle-mutable.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/handle-mutable.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/handle-mutable.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/handle-mutable.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/handle-mutable.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/handle-mutable.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/handle-mutable.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-below-flight-segmentpath.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/invalidate-cache-by-router-state.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/invalidate-cache-by-router-state.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/invalidate-cache-by-router-state.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/invalidate-cache-by-router-state.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/is-navigating-to-new-root-layout.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/is-navigating-to-new-root-layout.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/is-navigating-to-new-root-layout.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/is-navigating-to-new-root-layout.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/read-record-value.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/read-record-value.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/read-record-value.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/read-record-value.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/read-record-value.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/read-record-value.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/read-record-value.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/fast-refresh-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/fast-refresh-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/fast-refresh-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/find-head-in-cache.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/find-head-in-cache.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/find-head-in-cache.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/find-head-in-cache.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/navigate-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/navigate-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/navigate-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/navigate-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/prefetch-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/prefetch-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/prefetch-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/prefetch-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/refresh-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/refresh-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/refresh-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/refresh-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/restore-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/restore-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/restore-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/restore-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/server-patch-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/server-patch-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/reducers/server-patch-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/reducers/server-patch-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/router-reducer-types.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/router-reducer-types.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/router-reducer-types.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/router-reducer-types.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/router-reducer-types.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/router-reducer-types.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer-types.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/router-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/router-reducer.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/router-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/router-reducer.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/router-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/router-reducer.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/should-hard-navigate.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/should-hard-navigate.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/router-reducer/should-hard-navigate.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/should-hard-navigate.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/searchparams-bailout-proxy.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/searchparams-bailout-proxy.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/searchparams-bailout-proxy.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/searchparams-bailout-proxy.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/searchparams-bailout-proxy.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/searchparams-bailout-proxy.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/searchparams-bailout-proxy.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/static-generation-bailout.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-bailout.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/static-generation-bailout.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-bailout.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/static-generation-bailout.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-bailout.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/static-generation-bailout.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-bailout.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/static-generation-bailout.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-bailout.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/static-generation-bailout.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-bailout.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/use-reducer-with-devtools.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/use-reducer-with-devtools.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/use-reducer-with-devtools.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/use-reducer-with-devtools.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/components/use-reducer-with-devtools.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/components/use-reducer-with-devtools.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/normalize-trailing-slash.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/normalize-trailing-slash.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/normalize-trailing-slash.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/normalize-trailing-slash.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/normalize-trailing-slash.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/normalize-trailing-slash.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/page-path/ensure-leading-slash.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/page-path/ensure-leading-slash.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/page-path/ensure-leading-slash.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js#ensureLeadingSlash": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+      "name": "ensureLeadingSlash",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/page-path/ensure-leading-slash.js#ensureLeadingSlash": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+      "name": "ensureLeadingSlash",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/add-path-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/add-path-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/add-path-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js#addPathPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
+      "name": "addPathPrefix",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/add-path-prefix.js#addPathPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
+      "name": "addPathPrefix",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/app-paths.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/app-paths.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/app-paths.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/app-paths.js#normalizeAppPath": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "normalizeAppPath",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js#normalizeAppPath": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "normalizeAppPath",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/app-paths.js#normalizeRscPath": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "normalizeRscPath",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js#normalizeRscPath": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+      "name": "normalizeRscPath",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/handle-smooth-scroll.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/handle-smooth-scroll.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/handle-smooth-scroll.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js#handleSmoothScroll": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js",
+      "name": "handleSmoothScroll",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/handle-smooth-scroll.js#handleSmoothScroll": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/handle-smooth-scroll.js",
+      "name": "handleSmoothScroll",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-bot.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-bot.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-bot.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-bot.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-bot.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-bot.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-bot.js#isBot": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+      "name": "isBot",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-bot.js#isBot": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+      "name": "isBot",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/parse-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/parse-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/parse-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/parse-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/parse-path.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/parse-path.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/parse-path.js#parsePath": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
+      "name": "parsePath",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/parse-path.js#parsePath": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
+      "name": "parsePath",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/remove-trailing-slash.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/remove-trailing-slash.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/remove-trailing-slash.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
+      "name": "__esModule",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js#removeTrailingSlash": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
+      "name": "removeTrailingSlash",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/remove-trailing-slash.js#removeTrailingSlash": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
+      "name": "removeTrailingSlash",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/LeftBar.tsx": {
+      "id": "(app-client)/./app/LeftBar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/LeftBar.tsx#": {
+      "id": "(app-client)/./app/LeftBar.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/LeftBar.tsx#default": {
+      "id": "(app-client)/./app/LeftBar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/SpeedDial.tsx": {
+      "id": "(app-client)/./app/SpeedDial.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/SpeedDial.tsx#": {
+      "id": "(app-client)/./app/SpeedDial.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/SpeedDial.tsx#default": {
+      "id": "(app-client)/./app/SpeedDial.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/TabsBar.tsx": {
+      "id": "(app-client)/./app/TabsBar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/TabsBar.tsx#": {
+      "id": "(app-client)/./app/TabsBar.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/TabsBar.tsx#default": {
+      "id": "(app-client)/./app/TabsBar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/dashboard.tsx": {
+      "id": "(app-client)/./app/dashboard.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/dashboard.tsx#": {
+      "id": "(app-client)/./app/dashboard.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/dashboard.tsx#default": {
+      "id": "(app-client)/./app/dashboard.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/navbar.tsx": {
+      "id": "(app-client)/./app/navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/navbar.tsx#": {
+      "id": "(app-client)/./app/navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/navbar.tsx#default": {
+      "id": "(app-client)/./app/navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/page.tsx": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/page.tsx#": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/page.tsx#default": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
       ],
       "async": false
     }

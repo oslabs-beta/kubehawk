@@ -21,6 +21,7 @@ function Navbar() {
       {/* {props.navItems} */}
       </ul>
         </div>
+        
     </div>
 
   )

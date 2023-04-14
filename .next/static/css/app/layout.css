@@ -1,0 +1,39 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/dashboard.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+#dashboard_dash-container__KEOcz {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+  
+  #dashboard_dash-body__vpmuJ {
+    display: flex;
+  }
+  
+  #dashboard_body-nav__Zd0Ac{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .dashboard_row__6PIFe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard_column__je3G9 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  /* iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  } */
+  
