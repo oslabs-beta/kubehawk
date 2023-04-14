@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import Sunburst from 'sunburst-chart';
-import flareData from './flare.json';
 
 const SunburstChart = (props) => {
   const chartRef = useRef();
