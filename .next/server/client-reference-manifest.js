@@ -3052,7 +3052,11 @@ self.__RSC_MANIFEST={
     }
   },
   "edgeSSRModuleMapping": {},
-  "cssFiles": {},
+  "cssFiles": {
+    "/Users/secondbrain/Codesmith/kubehawk/app/layout": [
+      "static/css/app/layout.css"
+    ]
+  },
   "clientModules": {
     "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/app-bootstrap.js": {
       "id": "(app-client)/./node_modules/next/dist/client/app-bootstrap.js",
@@ -9677,6 +9681,13 @@ self.__RSC_MANIFEST={
         "app/page:app/page"
       ],
       "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/app/styles.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }

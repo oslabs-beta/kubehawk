@@ -1,4 +1,4 @@
-import './dashboard.module.css';
+import './styles.module.css';
 
 export default function DashboardLayout({ children }: {
   children: React.ReactNode
