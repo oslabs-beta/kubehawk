@@ -18,3 +18,19 @@
     }
     }
 }
+
+.splashleft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 960px;
+  .splashleftimg {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+#splash-info {
+  display: flex;
+  flex-direction: column;
+}

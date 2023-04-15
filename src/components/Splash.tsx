@@ -6,7 +6,7 @@ function Splash() {
     <div id='splash-main'>
       <div id="splash-title">
         <h1>KubeHawk</h1>
-        <h2>A Kubernetes Security Monitor</h2>
+        <h2>A Kubernetes Securrrrity Monitor</h2>
     </div>
     <div id="enter">
     <button >Dashboard</button>
