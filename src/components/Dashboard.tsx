@@ -4,7 +4,7 @@ import LeftBar from './LeftBar';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import { useLocation } from 'react-router-dom';
-import { grafanaUrls, createFrames} from './grafanaUrlCreator.ts' // assuming the file extension is .ts
+import { grafanaUrls} from './grafanaUrlCreator.ts' // assuming the file extension is .ts
 
 function Dashboard() {
   const [selectedDashboard, setSelectedDashboard] = useState(null);
