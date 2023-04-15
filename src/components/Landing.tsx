@@ -4,6 +4,7 @@ import loginImg from "./assets/login_4.png";
 import LandCopy from "./LandCopy";
 import SplashInfoLeft from "./SplashInfoLeft";
 import SplashInfoRight from "./SplashInfoRight";
+import SplashTeam from './SplashTeam';
 import GetKlusterInfo from "./GetKlusterInfo";
 import { Login } from "./Login";
 
@@ -41,6 +42,7 @@ function Landing() {
         <SplashInfoLeft header={infoItems[0].header} text={infoItems[0].text} image={loginImg}></SplashInfoLeft>
         <SplashInfoRight header={infoItems[1].header} text={infoItems[1].text} image={loginImg}></SplashInfoRight>
         <SplashInfoLeft header={infoItems[2].header} text={infoItems[2].text} image={loginImg}></SplashInfoLeft>
+        <SplashTeam></SplashTeam>
       </div>
     </div>
   );
