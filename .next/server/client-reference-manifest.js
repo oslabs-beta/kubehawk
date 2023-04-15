@@ -2920,58 +2920,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/SpeedDial.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/SpeedDial.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/SpeedDial.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/SpeedDial.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/TabsBar.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/TabsBar.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/TabsBar.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/TabsBar.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/dashboard.tsx": {
       "*": {
         "id": "(sc_client)/./app/dashboard.tsx",
@@ -3052,11 +3000,7 @@ self.__RSC_MANIFEST={
     }
   },
   "edgeSSRModuleMapping": {},
-  "cssFiles": {
-    "/Users/secondbrain/Codesmith/kubehawk/app/layout": [
-      "static/css/app/layout.css"
-    ]
-  },
+  "cssFiles": {},
   "clientModules": {
     "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/app-bootstrap.js": {
       "id": "(app-client)/./node_modules/next/dist/client/app-bootstrap.js",
@@ -9562,54 +9506,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/secondbrain/Codesmith/kubehawk/app/SpeedDial.tsx": {
-      "id": "(app-client)/./app/SpeedDial.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "/Users/secondbrain/Codesmith/kubehawk/app/SpeedDial.tsx#": {
-      "id": "(app-client)/./app/SpeedDial.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "/Users/secondbrain/Codesmith/kubehawk/app/SpeedDial.tsx#default": {
-      "id": "(app-client)/./app/SpeedDial.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "/Users/secondbrain/Codesmith/kubehawk/app/TabsBar.tsx": {
-      "id": "(app-client)/./app/TabsBar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "/Users/secondbrain/Codesmith/kubehawk/app/TabsBar.tsx#": {
-      "id": "(app-client)/./app/TabsBar.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "/Users/secondbrain/Codesmith/kubehawk/app/TabsBar.tsx#default": {
-      "id": "(app-client)/./app/TabsBar.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
     "/Users/secondbrain/Codesmith/kubehawk/app/dashboard.tsx": {
       "id": "(app-client)/./app/dashboard.tsx",
       "name": "*",
@@ -9681,13 +9577,6 @@ self.__RSC_MANIFEST={
         "app/page:app/page"
       ],
       "async": false
-    },
-    "/Users/secondbrain/Codesmith/kubehawk/app/styles.module.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
     }
   }
 }

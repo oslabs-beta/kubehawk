@@ -1,8 +1,6 @@
 "use client"
 
 import {FaChartLine, FaCog, FaHome, FaUsers} from 'react-icons/fa'
-import Button from '@mui/material/Button';
-
 
 
 function LeftBar() {
@@ -34,9 +32,6 @@ function LeftBar() {
           </a>
         </li>
       </ul>
-      <div>
-      <Button variant="contained">Hello World</Button>
-    </div>
     </nav>
   );
 }

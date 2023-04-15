@@ -1,39 +1,390 @@
-/*!***************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/styles.module.css ***!
-  \***************************************************************************************************************************************************************************************************************************************************************/
-#styles_dash-container__B31dv {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    margin: 0;
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./styles/application.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
 }
-  
-  #styles_dash-body__vDB8w {
-    display: flex;
-  }
-  
-  #styles_body-nav__Akq_6{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-  }
-  
-  .styles_row__ryJTa {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .styles_column__BBlc_ {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-  }
-  
-  /* iframe {
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  } */
-  
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex.fill {
+  height: 100%;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: 90%;
+  background: lightblue;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  grid-gap: 25px;
+  padding: 25px;
+  background: white;
+  border-radius: 5px;
+  margin-left: 12px;
+  margin-right: 12px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.05);
+  will-change: width, height;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 5px;
+  will-change: transform, opacity;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  margin-right: 5px;
+}
+
+.onboard-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 237, 237);
+  height: 100%;
+  width: 100%;
+}
+.onboard-page .base-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 60vh;
+  border: 2px solid rgba(157, 157, 157, 0.174);
+  background-color: rgb(226, 228, 232);
+  /* Change the background color of the button on hover */
+  /* Add a shadow to the button on hover */
+  /* Add a slightly larger shadow on active */
+}
+.onboard-page .base-container .header {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  margin: 40px 0 20px 0;
+}
+.onboard-page .base-container .content {
+  display: flex;
+  flex-direction: column;
+}
+.onboard-page .base-container .content .image {
+  width: 21em;
+}
+.onboard-page .base-container .content .image img {
+  width: 100%;
+  height: 100%;
+}
+.onboard-page .base-container .content .form {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.onboard-page .base-container .content .form .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.onboard-page .base-container .content .form .form-group label {
+  font-size: 20px;
+}
+.onboard-page .base-container .content .form .form-group input {
+  margin-top: 6px;
+  min-width: 18em;
+  height: 37px;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f3f3f3;
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 31px;
+  transition: all 250ms ease-in-out;
+}
+.onboard-page .base-container .content .form .form-group input:focus {
+  outline: none;
+  box-shadow: 0px 0px 12px 0.8px rgba(52, 116, 219, 0.6980392157);
+}
+.onboard-page .base-container .footer {
+  margin-top: 3em;
+}
+.onboard-page .base-container .btn {
+  height: 45px;
+  width: 150px;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #3f71c0;
+  color: white;
+  border: transparent;
+  transition: all 0.3s ease-in-out; /* Add transition effect */
+}
+.onboard-page .base-container .btn:hover {
+  background-color: #355fa0;
+}
+.onboard-page .base-container .btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.onboard-page .base-container .btn:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+#dash-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#dash-body {
+  display: flex;
+}
+
+#body-nav {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#splash-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: gray;
+  color: rgb(203, 178, 178);
+  width: 100%;
+  height: 100%;
+}
+#splash-main #splash-title {
+  display: flex;
+  margin: 10%;
+  flex-direction: column;
+  justify-content: center;
+}
+#splash-main #splash-title h1 {
+  font-size: 36px;
+}
+
+.landing #landing-login {
+  display: flex;
+  flex-direction: row;
+}
+.landing #login-image {
+  width: 60%;
+}
+
+.landing-copy-section {
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  width: 100%;
+  /* Change the background color of the button on hover */
+  /* Add a shadow to the button on hover */
+  /* Add a slightly larger shadow on active */
+}
+.landing-copy-section .landing-copy {
+  margin: 35% 10% 15% 10%;
+}
+.landing-copy-section h1 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+.landing-copy-section ul {
+  list-style: none;
+  line-height: 175%;
+  margin-left: 0;
+  padding-left: 10px;
+}
+.landing-copy-section ul li:before {
+  content: "✓";
+}
+.landing-copy-section button {
+  height: 45px;
+  width: 150px;
+  font-size: 1em;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: #e63946;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Add transition effect */
+}
+.landing-copy-section button:hover {
+  background-color: #D43932;
+}
+.landing-copy-section button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.landing-copy-section button:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  height: 8vh;
+  color: #000000;
+  border: 0.25px solid rgb(229, 225, 225);
+  /* Change the background color of the button on hover */
+  /* Add a shadow to the button on hover */
+  /* Add a slightly larger shadow on active */
+}
+.navbar #left-nav {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.navbar #left-nav img {
+  width: 30px;
+}
+.navbar .logo {
+  display: flex;
+  font-size: 1.5rem;
+}
+.navbar .logo #logo {
+  margin-top: 10px;
+  height: 60px;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 18px 0;
+}
+.navbar li {
+  padding: 0 1rem;
+  text-decoration: none;
+}
+.navbar button {
+  height: 30px;
+  width: 120px;
+  font-size: 1em;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: #e63946;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Add transition effect */
+}
+.navbar button:hover {
+  background-color: #D43932;
+}
+.navbar button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.navbar button:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+.leftbar {
+  background-color: #fbfcfe;
+  width: 10vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 30px;
+  padding: 0;
+}
+.leftbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.leftbar li {
+  position: relative;
+  width: 100%;
+}
+.leftbar li a {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: #4e4d4d;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 24px;
+  width: 100%;
+  border-radius: 0; /* Remove border-radius */
+}
+.leftbar li:hover a {
+  background-color: #555;
+  border-radius: 0 20px 20px 0;
+  color: #fbfcfe;
+}
+.leftbar li:hover a span {
+  display: inline;
+}
+.leftbar li a span {
+  margin-left: 10px;
+}
+.leftbar li a .fa-fw {
+  margin-right: 6px;
+}

@@ -3,8 +3,6 @@
 
 import Navbar from "./navbar";
 import LeftBar from "./LeftBar";
-import TabsBar from "./TabsBar";
-import BasicSpeedDial from "./SpeedDial";
 
 
 
@@ -12,9 +10,7 @@ function Dashboard() {
 
   return (
     <div id="dash-container">
-      <Navbar/>
-      <TabsBar />
-      <BasicSpeedDial />
+      <Navbar />
       <div id="body-nav">
         <LeftBar />
       <div id="dash-body">
