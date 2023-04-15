@@ -12,7 +12,9 @@ describe('app component', () => {
 //<DnD /> test
   it('DnD component accepts Json file', () => {
     cy.get('label').selectFile('cypress/fixtures/example.json', { action: 'drag-drop' })
-    /*tests Sunburst chart button when it is the only button in the DnD component.
+
+    /*
+      Tests Sunburst chart button when it is the only button in the DnD component.
       Does not work if more than one button is on the DnD component
     */
     cy.get('button').click()
