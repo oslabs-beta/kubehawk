@@ -1,12 +1,1 @@
-self.__RSC_CSS_MANIFEST={
-  "cssImports": {
-    "/Users/secondbrain/Codesmith/kubehawk/app/layout.tsx": [
-      "/Users/secondbrain/Codesmith/kubehawk/styles/application.scss"
-    ]
-  },
-  "cssModules": {
-    "/Users/secondbrain/Codesmith/kubehawk/app/page": [
-      "/Users/secondbrain/Codesmith/kubehawk/styles/application.scss"
-    ]
-  }
-}
+self.__RSC_CSS_MANIFEST={"cssImports":{"/Users/steve/Documents/kubehawk/app/layout.tsx":["/Users/steve/Documents/kubehawk/styles/application.scss"]},"cssModules":{"/Users/steve/Documents/kubehawk/app/page":["/Users/steve/Documents/kubehawk/styles/application.scss"],"/Users/steve/Documents/kubehawk/app/cluster/page":["/Users/steve/Documents/kubehawk/styles/application.scss"]}}

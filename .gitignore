@@ -1,2 +1,8 @@
-node_modules
-.next
+# dependencies
+node_modules/
+.npm
+yarn.lock
+
+# build
+/.next
+/out
