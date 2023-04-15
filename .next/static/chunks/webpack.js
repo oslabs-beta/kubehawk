@@ -181,7 +181,7 @@
 /******/ 		// This function allow to reference all chunks
 /******/ 		__webpack_require__.miniCssF = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return undefined;
+/******/ 			return "static/css/" + chunkId + ".css";
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -192,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "5d751bb16872a7e0"; }
+/******/ 		__webpack_require__.h = function() { return "1b286e430749de70"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -1413,7 +1413,5 @@
 /******/ 	
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	
-/******/ })()
-;****/ 	
 /******/ })()
 ;

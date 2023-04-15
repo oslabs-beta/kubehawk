@@ -1755,7 +1755,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "*",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -1763,7 +1763,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -1771,7 +1771,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "default",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -2873,7 +2873,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "*",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -2881,7 +2881,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -2889,7 +2889,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "default",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -2997,10 +2997,144 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./node_modules/next/dist/client/add-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/get-domain-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/request-idle-callback.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/use-intersection.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
-  "cssFiles": {},
+  "cssFiles": {
+    "/Users/secondbrain/Codesmith/kubehawk/app/layout": [
+      "static/css/app/layout.css"
+    ]
+  },
   "clientModules": {
     "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/app-bootstrap.js": {
       "id": "(app-client)/./node_modules/next/dist/client/app-bootstrap.js",
@@ -6862,7 +6996,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -6870,7 +7004,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -6878,7 +7012,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -6886,7 +7020,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -6894,7 +7028,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -6902,7 +7036,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -8974,7 +9108,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -8982,7 +9116,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -8990,7 +9124,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -8998,7 +9132,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9006,7 +9140,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9014,7 +9148,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9086,7 +9220,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9094,7 +9228,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9102,7 +9236,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9110,7 +9244,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9118,7 +9252,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9126,7 +9260,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9134,7 +9268,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9142,7 +9276,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9358,7 +9492,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9366,7 +9500,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9374,7 +9508,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9382,7 +9516,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9390,7 +9524,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9398,7 +9532,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9406,7 +9540,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9414,7 +9548,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9422,7 +9556,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9430,7 +9564,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9438,7 +9572,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9446,7 +9580,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9454,7 +9588,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9462,7 +9596,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9470,7 +9604,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9478,7 +9612,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -9577,6 +9711,1469 @@ self.__RSC_MANIFEST={
         "app/page:app/page"
       ],
       "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/format-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatUrl",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatUrl",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatWithValidation": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatWithValidation",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatWithValidation": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatWithValidation",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/format-url.js#urlObjectKeys": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "urlObjectKeys",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#urlObjectKeys": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "urlObjectKeys",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/querystring.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/querystring.js#assign": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "assign",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#assign": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "assign",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "searchParamsToUrlQuery",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "searchParamsToUrlQuery",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "urlQueryToSearchParams",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "urlQueryToSearchParams",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-regex.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedMiddlewareRegex",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedMiddlewareRegex",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedRouteRegex",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedRouteRegex",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getRouteRegex",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getRouteRegex",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#DecodeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "DecodeError",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#DecodeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "DecodeError",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#MiddlewareNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MiddlewareNotFoundError",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#MiddlewareNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MiddlewareNotFoundError",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#MissingStaticPage": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MissingStaticPage",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#MissingStaticPage": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MissingStaticPage",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#NormalizeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "NormalizeError",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#NormalizeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "NormalizeError",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#PageNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "PageNotFoundError",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#PageNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "PageNotFoundError",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#SP": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "SP",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#SP": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "SP",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#ST": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "ST",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#ST": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "ST",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#WEB_VITALS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "WEB_VITALS",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#WEB_VITALS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "WEB_VITALS",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#execOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "execOnce",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#execOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "execOnce",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#getDisplayName": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getDisplayName",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#getDisplayName": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getDisplayName",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#getLocationOrigin": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getLocationOrigin",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#getLocationOrigin": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getLocationOrigin",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#getURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getURL",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#getURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getURL",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#isAbsoluteUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isAbsoluteUrl",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#isAbsoluteUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isAbsoluteUrl",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#isResSent": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isResSent",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#isResSent": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isResSent",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#loadGetInitialProps": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "loadGetInitialProps",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#loadGetInitialProps": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "loadGetInitialProps",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/shared/lib/utils.js#normalizeRepeatedSlashes": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "normalizeRepeatedSlashes",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/node_modules/next/dist/esm/shared/lib/utils.js#normalizeRepeatedSlashes": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "normalizeRepeatedSlashes",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "/Users/secondbrain/Codesmith/kubehawk/styles/application.scss#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }

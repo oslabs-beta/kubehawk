@@ -1,6 +1,9 @@
 "use client"
 
-import {FaChartLine, FaCog, FaHome, FaUsers} from 'react-icons/fa'
+import Link from 'next/link';
+import {FaChartLine, FaCog, FaHome} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
+
 
 
 function LeftBar() {
@@ -8,28 +11,28 @@ function LeftBar() {
     <nav className="leftbar">
       <ul>
         <li>
-          <a href="#">
+        <Link href='/' >
           <FaHome />
             <span>Home</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+        <Link href='/'>
             <FaChartLine/>
-            <span>Analytics</span>
-          </a>
+            <span>Health Metrics</span>
+            </Link>
         </li>
         <li>
-          <a href="#">
-            <FaCog/>
+        <Link href='/'>
+        <FiUsers />
+            <span>RBAC Metrics</span>
+            </Link>
+        </li>
+        <li>
+        <Link href='/'>
+        <FaCog/>
             <span>Settings</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-          <FaUsers />
-            <span>Profile</span>
-          </a>
+            </Link>
         </li>
       </ul>
     </nav>
