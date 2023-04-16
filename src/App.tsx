@@ -6,10 +6,7 @@ import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 
 const App = () => {
-    return (
-        <Landing />
-
-    )
-}
+  return <Landing />;
+};
 
 export default App;

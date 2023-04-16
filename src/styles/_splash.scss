@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    flex: wrap;
     background-color: gray;
     color:rgb(203, 178, 178);
     width: 100%;
@@ -19,7 +20,7 @@
     }
 }
 
-.splashleft {
+.splashinfo {
   display: flex;
   align-items: center;
   justify-content: space-between;
