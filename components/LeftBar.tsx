@@ -8,12 +8,6 @@ function LeftBar() {
       <ul>
         <li>
         <Link href='/'>
-          <FaHome />
-            <span>Home</span>
-          </Link>
-        </li>
-        <li>
-        <Link href='/'>
             <FaChartLine/>
             <span>Health Metrics</span>
             </Link>
