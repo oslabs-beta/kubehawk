@@ -1,5 +1,502 @@
 {
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "apiVersion": "v1",
+  "items": [
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "rbac.authorization.kubernetes.io/autoupdate": "true"
+              },
+              "creationTimestamp": "2023-04-03T23:18:05Z",
+              "labels": {
+                  "kubernetes.io/bootstrapping": "rbac-defaults"
+              },
+              "name": "system:controller:bootstrap-signer",
+              "namespace": "kube-public",
+              "resourceVersion": "187",
+              "uid": "d983afc9-de36-4a88-86d3-56e5ec9b9db2"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "system:controller:bootstrap-signer"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "bootstrap-signer",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "creationTimestamp": "2023-04-03T23:19:05Z",
+              "labels": {
+                  "addonmanager.kubernetes.io/mode": "Reconcile"
+              },
+              "name": "gce:cloud-provider",
+              "namespace": "kube-system",
+              "resourceVersion": "770",
+              "uid": "62f62eae-9102-48f0-8a82-36a7a4a91a3c"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "gce:cloud-provider"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "cloud-provider",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "components.gke.io/component-name": "pdcsi",
+                  "components.gke.io/component-version": "0.13.7",
+                  "components.gke.io/layer": "addon"
+              },
+              "creationTimestamp": "2023-04-03T23:18:53Z",
+              "labels": {
+                  "addonmanager.kubernetes.io/mode": "Reconcile",
+                  "k8s-app": "gcp-compute-persistent-disk-csi-driver"
+              },
+              "name": "gce:podsecuritypolicy:pdcsi-node-sa",
+              "namespace": "kube-system",
+              "resourceVersion": "600",
+              "uid": "daec2325-c8ec-48fb-b74f-6925df084642"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "ClusterRole",
+              "name": "gce:podsecuritypolicy:privileged"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "pdcsi-node-sa",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "components.gke.io/layer": "addon"
+              },
+              "creationTimestamp": "2023-04-03T23:18:43Z",
+              "labels": {
+                  "addonmanager.kubernetes.io/mode": "Reconcile",
+                  "kubernetes.io/cluster-service": "true"
+              },
+              "name": "konnectivity-agent-cpha",
+              "namespace": "kube-system",
+              "resourceVersion": "474",
+              "uid": "516fa54f-16a2-400e-978a-83b651582318"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "konnectivity-agent-cpha"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "konnectivity-agent-cpha",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "components.gke.io/component-name": "metrics-server",
+                  "components.gke.io/component-version": "0.5.2-gke.8",
+                  "components.gke.io/layer": "addon"
+              },
+              "creationTimestamp": "2023-04-03T23:18:49Z",
+              "labels": {
+                  "addonmanager.kubernetes.io/mode": "Reconcile",
+                  "kubernetes.io/cluster-service": "true"
+              },
+              "name": "metrics-server-auth-reader",
+              "namespace": "kube-system",
+              "resourceVersion": "556",
+              "uid": "684d7867-a783-41bd-a5df-1f1fcbb9b8e0"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "extension-apiserver-authentication-reader"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "metrics-server",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "components.gke.io/component-name": "pdcsi",
+                  "components.gke.io/component-version": "0.13.7",
+                  "components.gke.io/layer": "addon"
+              },
+              "creationTimestamp": "2023-04-03T23:18:52Z",
+              "labels": {
+                  "addonmanager.kubernetes.io/mode": "Reconcile",
+                  "k8s-app": "gcp-compute-persistent-disk-csi-driver"
+              },
+              "name": "pdcsi-leaderelection-binding",
+              "namespace": "kube-system",
+              "resourceVersion": "599",
+              "uid": "0d4a6511-dfaa-4c45-be76-e84b20b23c25"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "pdcsi-leaderelection"
+          },
+          "subjects": [
+              {
+                  "apiGroup": "rbac.authorization.k8s.io",
+                  "kind": "User",
+                  "name": "system:pdcsi-controller"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "components.gke.io/component-name": "snapshot-controller",
+                  "components.gke.io/component-version": "0.6.1",
+                  "components.gke.io/layer": "addon"
+              },
+              "creationTimestamp": "2023-04-03T23:18:57Z",
+              "labels": {
+                  "addonmanager.kubernetes.io/mode": "Reconcile"
+              },
+              "name": "snapshot-controller-leaderelection",
+              "namespace": "kube-system",
+              "resourceVersion": "654",
+              "uid": "dcc39bfd-84b8-40a8-813d-d975b8cce319"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "snapshot-controller-leaderelection"
+          },
+          "subjects": [
+              {
+                  "apiGroup": "rbac.authorization.k8s.io",
+                  "kind": "User",
+                  "name": "system:snapshot-controller"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "rbac.authorization.kubernetes.io/autoupdate": "true"
+              },
+              "creationTimestamp": "2023-04-03T23:18:05Z",
+              "labels": {
+                  "kubernetes.io/bootstrapping": "rbac-defaults"
+              },
+              "name": "system::extension-apiserver-authentication-reader",
+              "namespace": "kube-system",
+              "resourceVersion": "188",
+              "uid": "d0bf1325-2ecd-42ec-82f2-e1fedc0b112e"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "extension-apiserver-authentication-reader"
+          },
+          "subjects": [
+              {
+                  "apiGroup": "rbac.authorization.k8s.io",
+                  "kind": "User",
+                  "name": "system:kube-controller-manager"
+              },
+              {
+                  "apiGroup": "rbac.authorization.k8s.io",
+                  "kind": "User",
+                  "name": "system:kube-scheduler"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "rbac.authorization.kubernetes.io/autoupdate": "true"
+              },
+              "creationTimestamp": "2023-04-03T23:18:05Z",
+              "labels": {
+                  "kubernetes.io/bootstrapping": "rbac-defaults"
+              },
+              "name": "system::leader-locking-kube-controller-manager",
+              "namespace": "kube-system",
+              "resourceVersion": "189",
+              "uid": "0410acd2-fed3-4f3f-98cc-51ebb688186c"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "system::leader-locking-kube-controller-manager"
+          },
+          "subjects": [
+              {
+                  "apiGroup": "rbac.authorization.k8s.io",
+                  "kind": "User",
+                  "name": "system:kube-controller-manager"
+              },
+              {
+                  "kind": "ServiceAccount",
+                  "name": "kube-controller-manager",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "rbac.authorization.kubernetes.io/autoupdate": "true"
+              },
+              "creationTimestamp": "2023-04-03T23:18:05Z",
+              "labels": {
+                  "kubernetes.io/bootstrapping": "rbac-defaults"
+              },
+              "name": "system::leader-locking-kube-scheduler",
+              "namespace": "kube-system",
+              "resourceVersion": "190",
+              "uid": "e62a618d-9212-4e09-92f6-6fff8d1207b2"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "system::leader-locking-kube-scheduler"
+          },
+          "subjects": [
+              {
+                  "apiGroup": "rbac.authorization.k8s.io",
+                  "kind": "User",
+                  "name": "system:kube-scheduler"
+              },
+              {
+                  "kind": "ServiceAccount",
+                  "name": "kube-scheduler",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "rbac.authorization.kubernetes.io/autoupdate": "true"
+              },
+              "creationTimestamp": "2023-04-03T23:18:05Z",
+              "labels": {
+                  "kubernetes.io/bootstrapping": "rbac-defaults"
+              },
+              "name": "system:controller:bootstrap-signer",
+              "namespace": "kube-system",
+              "resourceVersion": "191",
+              "uid": "cabc8471-5cf0-4167-9d52-2c964cd6dd42"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "system:controller:bootstrap-signer"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "bootstrap-signer",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "rbac.authorization.kubernetes.io/autoupdate": "true"
+              },
+              "creationTimestamp": "2023-04-03T23:18:05Z",
+              "labels": {
+                  "kubernetes.io/bootstrapping": "rbac-defaults"
+              },
+              "name": "system:controller:cloud-provider",
+              "namespace": "kube-system",
+              "resourceVersion": "192",
+              "uid": "978c35e6-9e97-49a1-9da0-9d60657fab30"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "system:controller:cloud-provider"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "cloud-provider",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "rbac.authorization.kubernetes.io/autoupdate": "true"
+              },
+              "creationTimestamp": "2023-04-03T23:18:05Z",
+              "labels": {
+                  "kubernetes.io/bootstrapping": "rbac-defaults"
+              },
+              "name": "system:controller:token-cleaner",
+              "namespace": "kube-system",
+              "resourceVersion": "193",
+              "uid": "b83c5923-b411-481d-bece-d6eaa4666634"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "system:controller:token-cleaner"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "token-cleaner",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "creationTimestamp": "2023-04-03T23:18:04Z",
+              "name": "system:gke-kcm-ccm-leader-election",
+              "namespace": "kube-system",
+              "resourceVersion": "69",
+              "uid": "89e97baf-a929-454a-a512-1b530b4e1f32"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "system:gke-kcm-ccm-leader-election"
+          },
+          "subjects": [
+              {
+                  "apiGroup": "rbac.authorization.k8s.io",
+                  "kind": "User",
+                  "name": "system:kube-controller-manager"
+              },
+              {
+                  "kind": "ServiceAccount",
+                  "name": "kube-controller-manager",
+                  "namespace": "kube-system"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "meta.helm.sh/release-name": "kubescape",
+                  "meta.helm.sh/release-namespace": "kubescape"
+              },
+              "creationTimestamp": "2023-04-04T20:26:03Z",
+              "labels": {
+                  "app.kubernetes.io/managed-by": "Helm"
+              },
+              "name": "ks-sa-role-binding",
+              "namespace": "kubescape",
+              "resourceVersion": "641141",
+              "uid": "0df486cc-5293-4938-963b-1dfefe140e6e"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "ks-sa-roles"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "ks-sa",
+                  "namespace": "kubescape"
+              }
+          ]
+      },
+      {
+          "apiVersion": "rbac.authorization.k8s.io/v1",
+          "kind": "RoleBinding",
+          "metadata": {
+              "annotations": {
+                  "meta.helm.sh/release-name": "stable",
+                  "meta.helm.sh/release-namespace": "prometheus"
+              },
+              "creationTimestamp": "2023-04-03T23:26:01Z",
+              "labels": {
+                  "app.kubernetes.io/instance": "stable",
+                  "app.kubernetes.io/managed-by": "Helm",
+                  "app.kubernetes.io/name": "grafana",
+                  "app.kubernetes.io/version": "9.3.8",
+                  "helm.sh/chart": "grafana-6.51.5"
+              },
+              "name": "stable-grafana",
+              "namespace": "prometheus",
+              "resourceVersion": "5224",
+              "uid": "fa0f1ffa-6c63-49b8-baa0-ac824d48be32"
+          },
+          "roleRef": {
+              "apiGroup": "rbac.authorization.k8s.io",
+              "kind": "Role",
+              "name": "stable-grafana"
+          },
+          "subjects": [
+              {
+                  "kind": "ServiceAccount",
+                  "name": "stable-grafana",
+                  "namespace": "prometheus"
+              }
+          ]
+      }
+  ],
+  "kind": "List",
+  "metadata": {
+      "resourceVersion": ""
+  }
 }
