@@ -5,8 +5,13 @@
     }
 
     #login-image{
-        width: 60%;
+      width: auto;
     }
+}
+
+#landing-body {
+  max-width: 960px;
+  margin: 0 auto; /* centers the content horizontally within the page */
 }
 
 
@@ -16,9 +21,11 @@
     flex-direction: column;
     font-weight: normal;
     width: 100%;
+    margin: 0px;
+    padding-left: 0px;
 
     .landing-copy{
-        margin: 35% 10% 15% 10%;
+        margin: 35% 10% 15% 0%;
     }
 
     h1 {
