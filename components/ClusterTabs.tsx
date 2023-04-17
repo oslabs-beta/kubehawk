@@ -4,7 +4,7 @@ interface ClusterNavProps {
   clusterIPs: string[];
   activeTab: string;
   onTabChange: (clusterIP: string) => void;
-  onAddTab: () => void;
+  onAddTab: (newClusterIP: string) => void;
 }
 
 const ClusterNav: React.FC<ClusterNavProps> = ({
@@ -25,7 +25,7 @@ const ClusterNav: React.FC<ClusterNavProps> = ({
             {ipAddress}
           </li>
         ))}
-        <li className="add-ip" onClick={onAddTab}>
+       <li className="add-ip" onClick={() => onAddTab("newClusterIP")}>
           +
         </li>
       </ul>
