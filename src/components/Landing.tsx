@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
 import loginImg from "./assets/login_4.png";
-import LandCopy from "./LandingDownloadLink";
-import SplashInfoLeft from "./LandingInfoLeft";
-import SplashInfoRight from "./LandingInfoRight";
-import SplashTeam from "./LandingTeam";
+import LandingMain from "./LandingMain";
+import LandingInfoLeft from "./LandingInfoLeft";
+import LandingInfoRight from "./LandingInfoRight";
+import LandingTeam from "./LandingTeam";
 import splash5 from "./assets/splash5.png";
 import splash6 from "./assets/splash6.png";
+import splash7 from "./assets/splash7.png";
 
 function Landing() {
   const navItems = ["Contact", "About"].map((item, i) => {
@@ -23,7 +24,7 @@ function Landing() {
       text: "Empower your Kubernetes administrators with our cutting-edge visualizer that provides a comprehensive view of Role-Based Access Control information, ensuring optimal security and streamlined management of your cluster permissions.",
     },
     {
-      header: "Seamlessly Integrate Kubehawk for Immediate Impact",
+      header: "Seamlessly Integrate Kubehawk for Impact",
       text: "Deploy our open-source metrics visualizer directly within your existing Kubernetes cluster for a rapid setup and instant value. Enhance your organization's monitoring capabilities and gain critical insights without any additional hassle or expense.",
     },
   ];
@@ -32,28 +33,28 @@ function Landing() {
     <div className="landing">
       <Navbar id="landing-nav" navItems={navItems} kubeButton={<button>Get KubeHawk</button>} />
       <div id="landing-body">
-        <div id="landing-login">
-          <LandCopy />
+        <div id="landing-top">
+          <LandingMain/>
           <div id="login-image">
             <img src={loginImg} alt="security_login" />
           </div>
         </div>
-        <SplashInfoLeft
+        <LandingInfoLeft
           header={infoItems[0].header}
           text={infoItems[0].text}
           image={splash5}
-        ></SplashInfoLeft>
-        <SplashInfoRight
+        ></LandingInfoLeft>
+        <LandingInfoRight
           header={infoItems[1].header}
           text={infoItems[1].text}
           image={splash6}
-        ></SplashInfoRight>
-        <SplashInfoLeft
+        ></LandingInfoRight>
+        <LandingInfoLeft
           header={infoItems[2].header}
           text={infoItems[2].text}
-          image={loginImg}
-        ></SplashInfoLeft>
-        <SplashTeam></SplashTeam>
+          image={splash7}
+        ></LandingInfoLeft>
+        <LandingTeam></LandingTeam>
       </div>
     </div>
   );

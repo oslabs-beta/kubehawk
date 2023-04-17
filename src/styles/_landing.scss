@@ -1,11 +1,20 @@
 .landing {
-    #landing-login{
+    #landing-top{
+        margin: 15px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     #login-image{
+      margin-top: 40px;
       width: auto;
+    }
+
+    @media screen and (max-width: 1020px) {
+      #login-image {
+        display: none;
+      }
     }
 }
 
@@ -14,12 +23,11 @@
   margin: 0 auto; /* centers the content horizontally within the page */
 }
 
-
-
-.landing-copy-section{
+.landing-call{
     display: flex;
     flex-direction: column;
     font-weight: normal;
+    justify-content: center;
     width: 100%;
     margin: 0px;
     padding-left: 0px;
@@ -74,6 +82,74 @@
       
       
 }
+
+#landingteam-header {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}
+
+#landingteam-hr {
+  width:50%;
+  margin:0 auto;
+}
+
+.centered-container {
+  margin-top: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.team-member {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.team-member img {
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set the same fixed height */
+  border-radius: 50%;
+  object-fit: cover; /* Maintain the aspect ratio */
+}
+
+.team-member h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+#tagline {
+  font-size: 0px;
+}
+
+#headline {
+  font-size: 15px;
+  font-style: bold;
+}
+
+.landing-listelement {
+  margin:5px;
+}
+
+#landingmain-header h1 {
+  margin-left: 14px;
+}
+
+
+
 // display: flex;
 // flex-direction: column;
 // justify-content: center;

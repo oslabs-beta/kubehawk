@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./assets/logo.png";
+import logo from "./assets/hawk-logo.png";
 import NavbarProps from "../types.ts";
 
 function Navbar(props: NavbarProps) {
