@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ClusterModal from './addClusterModal';
 interface ClusterNavProps {
   clusterIPs: string[];
   activeTab: string;
@@ -25,9 +25,7 @@ const ClusterNav: React.FC<ClusterNavProps> = ({
             {ipAddress}
           </li>
         ))}
-       <li className="add-ip" onClick={() => onAddTab("newClusterIP")}>
-          +
-        </li>
+       <ClusterModal onClick={() => onAddTab("newClusterIP")} />
       </ul>
     </nav>
   );
