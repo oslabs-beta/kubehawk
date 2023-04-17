@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import { grafanaUrls} from '../lib/grafanaUrlCreator' // assuming the file extension is .ts
 
 function GrafDashboard() {
   const [selectedDashboard, setSelectedDashboard] = useState<any>(null);
   const router = useRouter();
   // const { ipAddress, clusterName } = router.query;
-  const ipAddress: any = 'http://34.123.191.58/'
-  // const clusterName = 'Cluster Test'
+  const ipAddress: any = 'http://34.123.191.58'
   console.log(ipAddress);  
   function handleDashboardChange(option) {
     const dashboard = grafanaUrls[option.value];
