@@ -1,4 +1,5 @@
-import '../styles/application.scss'
+import './styles/application.scss'
+import { NextUIProvider } from '@nextui-org/react';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -6,7 +7,9 @@ function MyApp({ Component, pageProps }) {
       <header>
         {/* You can add a global header here */}
       </header>
+      <NextUIProvider>
       <Component {...pageProps} />
+      </NextUIProvider>
       <footer>
         {/* You can add a global footer here */}
       </footer>

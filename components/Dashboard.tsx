@@ -7,7 +7,8 @@ import LeftBar from '../components/LeftBar';
 import { useState } from 'react';
 import ClusterNav from './ClusterTabs';
 import InputCluster from './InputCluster';
-
+import addCluster from './addClusterModal'
+import ClusterModal from './addClusterModal';
 const Dashboard: NextPage = () => {
   const [clusterIPs, setClusterIPs] = useState(['http://34.123.191.58']);
   const [activeTab, setActiveTab] = useState(clusterIPs[0]);
