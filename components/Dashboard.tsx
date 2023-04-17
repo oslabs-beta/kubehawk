@@ -5,6 +5,7 @@ import dynamic, { DynamicOptions } from 'next/dynamic';
 import Navbar from '../components/Navbar';
 import LeftBar from '../components/LeftBar';
 import { useState } from 'react';
+import DnD from './DnD';
 
 const Dashboard: NextPage = () => {
 
@@ -17,6 +18,11 @@ const Dashboard: NextPage = () => {
     ssr: false,
   });
 
+  const DnD = dynamic(() => import('../components/DnD'), {
+    ssr: false,
+  });
+
+
   return (
     <div id="dash-container">
       <Navbar />
@@ -25,6 +31,8 @@ const Dashboard: NextPage = () => {
       </div>
       <div id="dash-body">
       {selectedNavItem === 'health' && <GrafDashboard /> }
+      {selectedNavItem === 'RBAC' && <DnD /> }
+
     </div>
     </div>
 

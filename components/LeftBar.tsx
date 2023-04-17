@@ -14,7 +14,7 @@ const LeftBar: React.FC<LeftBarProps> = ({onNavItemChange}) =>{
             <FaChartLine/>
             <span>Health Metrics</span>
         </li>
-        <li>
+        <li onClick={()=>{onNavItemChange('RBAC')}}>
         <Link href='/'>
         <FiUsers />
             <span>RBAC Metrics</span>
