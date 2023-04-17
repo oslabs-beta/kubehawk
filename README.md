@@ -39,7 +39,7 @@ Check out our [website](https://www.kubehawk.com)!
     `npm run dev`
 
 # Contribution
-Contributions are a great way to contribute to the open source community as a whole. If you'd like to contribute to K8R, please follow the steps below to get started.
+Contributions are a great way to contribute to the open source community as a whole. If you'd like to contribute to Kubehawk, please follow the steps below to get started.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/yourNewFeature`)
