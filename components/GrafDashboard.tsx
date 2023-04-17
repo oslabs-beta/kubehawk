@@ -1,27 +1,23 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar';
-import LeftBar from './LeftBar';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
-import { useLocation } from 'react-router-dom';
-import { grafanaUrls} from './grafanaUrlCreator.ts' // assuming the file extension is .ts
+import { useRouter } from 'next/router';
+import { grafanaUrls} from './grafanaUrlCreator' // assuming the file extension is .ts
 
 function GrafDashboard() {
-  const [selectedDashboard, setSelectedDashboard] = useState(null);
-  const location = useLocation();
-  const {ipAddress, clusterName} = location.state;
-  console.log(ipAddress)
+  const [selectedDashboard, setSelectedDashboard] = useState<any>(null);
+  const router = useRouter();
+  // const { ipAddress, clusterName } = router.query;
+  const ipAddress: any = 'http://34.123.191.58/'
+  // const clusterName = 'Cluster Test'
+  console.log(ipAddress);  
   function handleDashboardChange(option) {
     const dashboard = grafanaUrls[option.value];
     setSelectedDashboard(dashboard);
   }
 
   return (
-    <div id="dash-container">
-      <Navbar />
-      <div id="body-nav">
-        <LeftBar />
-        <div id="dash-body">
+        <div>
           <div>
             <Dropdown 
               options={Object.keys(grafanaUrls).map(key => ({ value: key, label: key }))} 
@@ -33,13 +29,11 @@ function GrafDashboard() {
             <div>
               {selectedDashboard.urls.map(url => (
                 // <iframe key={`${ipAddress} + ${url}`} src={`${ipAddress} + ${url}`} width="100%" height="600" />
-                <iframe key={url} src={ipAddress + url} width="450" height="200" frameborder="0"></iframe>
+                <iframe key={url} src={ipAddress + url} width="450" height="200"></iframe>
               ))}
             </div>
           )}
         </div>
-      </div>
-    </div>
   );
 }
 

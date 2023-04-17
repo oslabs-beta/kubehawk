@@ -6,6 +6,7 @@ function LeftBar() {
   return (
     <nav className="leftbar">
       <ul>
+        <li>
         <Link href='/'>
             <FaChartLine/>
             <span>Health Metrics</span>
