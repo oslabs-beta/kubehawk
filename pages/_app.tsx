@@ -1,9 +1,16 @@
 import '../styles/application.scss'
-import Dashboard from '../components/dash'
 
-function MyApp() {
+function MyApp({ Component, pageProps }) {
   return (
- <Dashboard /> 
+    <div>
+      <header>
+        {/* You can add a global header here */}
+      </header>
+      <Component {...pageProps} />
+      <footer>
+        {/* You can add a global footer here */}
+      </footer>
+    </div>
   )
 }
 

@@ -43,16 +43,6 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 /***/ }),
 
-/***/ "react":
-/*!*******************************************!*\
-  !*** external "next/dist/compiled/react" ***!
-  \*******************************************/
-/***/ ((module) => {
-
-module.exports = require("next/dist/compiled/react");
-
-/***/ }),
-
 /***/ "../server/get-page-files":
 /*!*****************************************************!*\
   !*** external "next/dist/server/get-page-files.js" ***!
@@ -110,6 +100,16 @@ module.exports = require("next/dist/shared/lib/html-context.js");
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/is-plain-object.js");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
 
 /***/ })
 
