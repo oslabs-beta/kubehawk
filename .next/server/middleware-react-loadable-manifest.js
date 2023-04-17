@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"index.js -> ../components/SunburstChart":{"id":"index.js -> ../components/SunburstChart","files":["static/chunks/components_SunburstChart_jsx.js"]}}
