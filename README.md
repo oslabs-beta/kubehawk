@@ -49,7 +49,7 @@ Contributions are a great way to contribute to the open source community as a wh
 
 # License
 
-Kubehawk is designed under the [MIT License](.License.txt)
+Kubehawk is designed under the [MIT License](License.txt)
 
 
 
