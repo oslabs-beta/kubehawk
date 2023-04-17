@@ -1,26 +1,22 @@
-import React from 'react'
-import logo from './assets/logo.png'
-import NavbarProps from '../types.ts'
+import React from "react";
+import logo from "./assets/hawk-logo.png";
+import NavbarProps from "../types.ts";
 
 function Navbar(props: NavbarProps) {
-
-  const kubeButton = props.kubeButton || '';
+  const kubeButton = props.kubeButton || "";
 
   return (
-    <div className='navbar'>
-      <div className='logo'>
-    <img id='logo' src={logo} alt="logo"/> 
-    <p>KubeHawk</p>
+    <div className="navbar">
+      <div className="logo">
+        <img id="logo" src={logo} alt="logo" />
+        <p>KubeHawk</p>
       </div>
-      <div id='left-nav'>
+      <div id="left-nav">
         {kubeButton}
-       <ul>
-      {props.navItems}
-      </ul>
-        </div>
+        <ul>{props.navItems}</ul>
+      </div>
     </div>
-
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

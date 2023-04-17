@@ -3,7 +3,7 @@ import React from "react";
 
 const SplashInfoLeft = (props) => {
     return (
-      <div className="splashleft">
+      <div className="splashinfo">
         <div id="splash.info">
           <h1 id="splash.header">
             {props.header}

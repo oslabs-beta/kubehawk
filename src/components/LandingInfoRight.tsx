@@ -3,7 +3,7 @@ import React from "react";
 
 const SplashInfoRight = (props) => {
     return (
-      <div className="splashleft">
+      <div className="splashinfo">
         <img src={props.image} className="splashleftimg" alt="A picture" />
         <div id="splash.info">
           <h1 id="splash.header">

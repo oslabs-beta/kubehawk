@@ -6,6 +6,15 @@
   height: 8vh;
   color: #000000;
   border: .25px solid rgb(229, 225, 225);
+  background-color: rgba(255, 255, 255, 1);
+  /* Set the position to fixed */
+  position: fixed;
+  /* Make sure the NavBar is at the top */
+  top: 0;
+  /* Set the width to cover the entire viewport width */
+  width: 100%;
+  /* Add a z-index to make sure the NavBar is above other elements */
+  z-index: 1000;
 
   #left-nav{
     display: flex;
@@ -23,8 +32,10 @@
     font-size: 1.5rem;
 
     #logo{
+      height: 50px;
       margin-top: 10px;
-      height: 60px;
+      margin-left: 10px;
+      margin-right: 5px;
     }
 
   }

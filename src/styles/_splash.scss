@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    flex: wrap;
     background-color: gray;
     color:rgb(203, 178, 178);
     width: 100%;
@@ -19,7 +20,7 @@
     }
 }
 
-.splashleft {
+.splashinfo {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,30 +36,5 @@
   flex-direction: column;
 }
 
-.team-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 1rem;
-}
 
-.team-member {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 1rem;
-  padding: 1rem;
-  width: 250px;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-radius: 5px;
-}
 
-.team-member img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-
-.team-member h3 {
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
