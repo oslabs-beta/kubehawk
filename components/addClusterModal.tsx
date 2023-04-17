@@ -39,7 +39,6 @@ export default function ClusterModal() {
             color="primary"
             size="lg"
             placeholder="Grafana Endpoint"
-            contentLeft={<ClusterIP fill="currentColor" />}
           />
           <Input
             clearable
@@ -48,7 +47,6 @@ export default function ClusterModal() {
             color="primary"
             size="lg"
             placeholder="Cluster Name"
-            contentLeft={<ClusterName fill="currentColor" />}
           />
         </Modal.Body>
         <Modal.Footer>
