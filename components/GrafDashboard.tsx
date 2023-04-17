@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import { useRouter } from 'next/router';
-import { grafanaUrls} from './grafanaUrlCreator' // assuming the file extension is .ts
+import { grafanaUrls} from '../lib/grafanaUrlCreator' // assuming the file extension is .ts
 
 function GrafDashboard() {
   const [selectedDashboard, setSelectedDashboard] = useState<any>(null);
