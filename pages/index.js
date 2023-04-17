@@ -11,7 +11,7 @@ const DnD = dynamic(() => import("../components/DnD"), {
 
   return (
     <>
-    <DnD />
+  <Dashboard />
     </>
   );
 }
