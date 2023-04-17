@@ -2,15 +2,17 @@ import Link from 'next/link';
 import {FaChartLine, FaCog, FaHome} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 
-function LeftBar() {
+interface LeftBarProps {
+  onNavItemChange: (navItem: string) => void;
+}
+
+const LeftBar: React.FC<LeftBarProps> = ({onNavItemChange}) =>{
   return (
     <nav className="leftbar">
       <ul>
-        <li>
-        <Link href='/'>
+        <li onClick={()=>{onNavItemChange('health')}}>
             <FaChartLine/>
             <span>Health Metrics</span>
-            </Link>
         </li>
         <li>
         <Link href='/'>

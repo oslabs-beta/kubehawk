@@ -4,9 +4,15 @@ import dynamic, { DynamicOptions } from 'next/dynamic';
 
 import Navbar from '../components/Navbar';
 import LeftBar from '../components/LeftBar';
+import { useState } from 'react';
 
 const Dashboard: NextPage = () => {
 
+  const [selectedNavItem, setSelectedNavItem] = useState('health')
+
+  const handleLeftNavChange = (navItem) => {
+    setSelectedNavItem(navItem)
+  }
   const GrafDashboard = dynamic(() => import('../components/GrafDashboard'), {
     ssr: false,
   });
@@ -15,10 +21,10 @@ const Dashboard: NextPage = () => {
     <div id="dash-container">
       <Navbar />
       <div id="body-nav">
-        <LeftBar />
+        <LeftBar onNavItemChange={ handleLeftNavChange}/>
       </div>
       <div id="dash-body">
-      <GrafDashboard />
+      {selectedNavItem === 'health' && <GrafDashboard /> }
     </div>
     </div>
 
