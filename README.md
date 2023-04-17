@@ -22,12 +22,34 @@ Check out our [website](https://www.kubehawk.com)!
 [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)](https://prometheus.io/)
 [![Cypress](https://img.shields.io/badge/cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](License.txt)
 
 </div>
 
 <br/>
-# Table of Contents
+
+# Getting Started
+1. Fork and clone the repo: 
+   `git clone https://github.com/oslabs-beta/kubehawk.git`
+2. Install dependencies:
+   `npm install`
+3. Make sure your Kubernetes cluster is up and running with Prometheus and Grafana exposed.
+    * Expose your Prometheus and Grafana endpoints
+    * Export your RBAC bindings to your local computer
+4. Run our program and visit the local 
+    `npm run dev`
+
+# Contribution
+Contributions are a great way to contribute to the open source community as a whole. If you'd like to contribute to K8R, please follow the steps below to get started.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/yourNewFeature`)
+3. Commit your Changes (`git commit -m 'Add some a fantastic new feature'`)
+4. Push to the Branch (`git push origin feature/yourNewFeature`)
+5. Open a Pull Request
+
+# License
+
+Kubehawk is designed under the [MIT License](.License.txt)
 
 
 
