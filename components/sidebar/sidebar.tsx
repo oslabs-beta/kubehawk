@@ -106,22 +106,19 @@ export const SidebarWrapper = () => {
                         icon={<ReportsIcon />}
                      />
                </SidebarMenu> 
+               <SidebarMenu title="User Group Metrics">
+                     <SidebarItem
+                        title="Roles Based Access"
+                        icon={<ChangeLogIcon />}
+                        isActive={router.pathname === '/reports'}
 
+                     />
+                  </SidebarMenu>
                   <SidebarMenu title="Learn More">
                      <SidebarItem
                         title="Kubernetes Docs"
                         icon={<ChangeLogIcon />}
                         href="https://kubernetes.io/docs/home/"
-                     />
-                     <SidebarItem
-                        title="Google GKE"
-                        icon={<ChangeLogIcon />}
-                        href="https://cloud.google.com/kubernetes-engine"
-                     />
-                                          <SidebarItem
-                        title="Amazon EKS"
-                        icon={<ChangeLogIcon />}
-                        href="https://aws.amazon.com/eks/"
                      />
                   </SidebarMenu>
                </Sidebar.Body>

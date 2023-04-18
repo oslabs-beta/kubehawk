@@ -1,6 +1,6 @@
 export const columns = [
    {name: 'NAME', uid: 'name'},
-   {name: 'ROLE', uid: 'role'},
+   {name: 'IP Address', uid: 'IPaddress'},
    {name: 'STATUS', uid: 'status'},
    {name: 'ACTIONS', uid: 'actions'},
 ];
@@ -8,7 +8,7 @@ export const users = [
    {
       id: 1,
       name: 'Tony Reichert',
-      role: 'CEO',
+      IPaddress: 'CEO',
       team: 'Management',
       status: 'active',
       age: '29',
@@ -18,7 +18,7 @@ export const users = [
    {
       id: 2,
       name: 'Zoey Lang',
-      role: 'Technical Lead',
+      IPaddress: 'Technical Lead',
       team: 'Development',
       status: 'paused',
       age: '25',
@@ -28,7 +28,7 @@ export const users = [
    {
       id: 3,
       name: 'Jane Fisher',
-      role: 'Senior Developer',
+      IPaddress: 'Senior Developer',
       team: 'Development',
       status: 'active',
       age: '22',
@@ -38,7 +38,7 @@ export const users = [
    {
       id: 4,
       name: 'William Howard',
-      role: 'Community Manager',
+      IPaddress: 'Community Manager',
       team: 'Marketing',
       status: 'vacation',
       age: '28',
@@ -48,7 +48,7 @@ export const users = [
    {
       id: 5,
       name: 'Kristen Copper',
-      role: 'Sales Manager',
+      IPaddress: 'Sales Manager',
       team: 'Sales',
       status: 'active',
       age: '24',
@@ -58,7 +58,7 @@ export const users = [
    {
       id: 6,
       name: 'Tony Reichert',
-      role: 'CEO',
+      IPaddress: 'CEO',
       team: 'Management',
       status: 'active',
       age: '29',
@@ -68,7 +68,7 @@ export const users = [
    {
       id: 10,
       name: 'Kristen Copper',
-      role: 'Sales Manager',
+      IPaddress: 'Sales Manager',
       team: 'Sales',
       status: 'active',
       age: '24',
@@ -78,7 +78,7 @@ export const users = [
    {
       id: 8,
       name: 'Jane Fisher',
-      role: 'Senior Developer',
+      IPaddress: 'Senior Developer',
       team: 'Development',
       status: 'active',
       age: '22',
@@ -88,7 +88,7 @@ export const users = [
    {
       id: 7,
       name: 'Zoey Lang',
-      role: 'Technical Lead',
+      IPaddress: 'Technical Lead',
       team: 'Development',
       status: 'paused',
       age: '25',
@@ -99,7 +99,7 @@ export const users = [
    {
       id: 9,
       name: 'William Howard',
-      role: 'Community Manager',
+      IPaddress: 'Community Manager',
       team: 'Marketing',
       status: 'vacation',
       age: '28',
@@ -109,7 +109,7 @@ export const users = [
    {
       id: 11,
       name: 'Tony Reichert',
-      role: 'CEO',
+      IPaddress: 'CEO',
       team: 'Management',
       status: 'active',
       age: '29',
@@ -119,7 +119,7 @@ export const users = [
    {
       id: 12,
       name: 'Kristen Copper',
-      role: 'Sales Manager',
+      IPaddress: 'Sales Manager',
       team: 'Sales',
       status: 'active',
       age: '24',
@@ -129,7 +129,7 @@ export const users = [
    {
       id: 13,
       name: 'Jane Fisher',
-      role: 'Senior Developer',
+      IPaddress: 'Senior Developer',
       team: 'Development',
       status: 'active',
       age: '22',
@@ -139,7 +139,7 @@ export const users = [
    {
       id: 14,
       name: 'Zoey Lang',
-      role: 'Technical Lead',
+      IPaddress: 'Technical Lead',
       team: 'Development',
       status: 'paused',
       age: '25',
@@ -149,7 +149,7 @@ export const users = [
    {
       id: 15,
       name: 'Tony Reichert',
-      role: 'CEO',
+      IPaddress: 'CEO',
       team: 'Management',
       status: 'active',
       age: '29',
@@ -159,7 +159,7 @@ export const users = [
    {
       id: 16,
       name: 'Kristen Copper',
-      role: 'Sales Manager',
+      IPaddress: 'Sales Manager',
       team: 'Sales',
       status: 'active',
       age: '24',

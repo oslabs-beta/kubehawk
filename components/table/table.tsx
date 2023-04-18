@@ -14,7 +14,7 @@ export const TableWrapper = () => {
          }}
       >
          <Table
-            aria-label="Example table with custom cells"
+            aria-label="Kubernetes Cluster List"
             css={{
                height: 'auto',
                minWidth: '100%',
