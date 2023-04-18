@@ -3,19 +3,33 @@ import { NextPage } from 'next';
 import dynamic from 'next/dynamic';
 import Navbar from '../components/Navbar';
 import LeftBar from '../components/LeftBar';
-import { useState } from 'react';
-import ClusterNav from './ClusterTabs';
+import { useContext, useState } from 'react';
+import ClusterNav from './ClusterNav';
 import InputCluster from './InputCluster';
-import addCluster from './addClusterModal'
-import ClusterModal from './addClusterModal';
-interface DashboardProps {
-  clusters?: Array<{}>;
-  currentTab: {};
-}
+import StateContext from '../context/StateContext';
+import { StateContextType } from '../context/StateContext';
+// interface DashboardProps {
+//   clusters?: Array<{}>;
+//   currentTab: {};
+// }
 
-const Dashboard: NextPage<DashboardProps> = (props) => {
-  const [componentState, setComponentState] = useState({})
-  const [activeTab, setActiveTab] = useState(props.currentTab);
+const Dashboard: NextPage = () => {
+  const { componentState, setComponentState} = useContext(StateContext);
+  const clusters = componentState.clusters
+  const setClusters = (newCluster) => {
+    setComponentState((prevState) => ({
+      ...prevState,
+      clusters: [...prevState.clusters, { ipAddress: newCluster.ipAddress, clusterName: newCluster.clusterName }],
+    }))
+  }
+  const currentTab = componentState.currentTab
+  const setCurrentTab = (tab) => {
+    setComponentState((prevState) => ({
+      ...prevState,
+      currentTab: tab,
+    }));
+  };
+  
 
   const [selectedNavItem, setSelectedNavItem] = useState('health');
 
@@ -23,8 +37,11 @@ const Dashboard: NextPage<DashboardProps> = (props) => {
     setSelectedNavItem(navItem);
   };
 
-  const handleTabChange = (clusterIP) => {
-    setActiveTab(clusterIP);
+  const handleTabChange = (tab) => {
+    setComponentState((prevState) => ({
+      ...prevState,
+      currentTab: tab,
+    }));
   };
 
 
@@ -41,9 +58,10 @@ const Dashboard: NextPage<DashboardProps> = (props) => {
     <div id="dash-container">
       <Navbar />
       <ClusterNav
-        clusterIPs  = {props.clusters}
-        activeTab={activeTab}
+        clusterIPs={clusters}
+        currentTab={currentTab}
         onTabChange={handleTabChange}
+        setClusters={setClusters}
       />
       <div id="body-nav">
         <LeftBar onNavItemChange={handleLeftNavChange} />

@@ -1,17 +1,19 @@
 import ClusterModal from "./addClusterModal";
 
 interface ClusterNavProps {
-  clusterIPs: Array<{ ipAddress: string; clusterName: string }>;
-  activeTab: {};
-  onTabChange: (clusterIP: string) => void;
-  onAddTab: (newClusterIP: string) => void;
+  clusterIPs?: Array<{ ipAddress: string; clusterName: string }>;
+  currentTab?: { ipAddress: string; clusterName: string };
+  onTabChange: (tab: { ipAddress: string; clusterName: string }) => void;
+  setClusters: (newClusterIPs: Array<{ ipAddress: string; clusterName: string }>) => void;
 }
+
+
 
 const ClusterNav: React.FC<ClusterNavProps> = ({
   clusterIPs,
-  activeTab,
+  currentTab,
   onTabChange,
-  onAddTab,
+  setClusters,
 }) => {
   return (
     <nav className="ip-navbar">
@@ -20,8 +22,8 @@ const ClusterNav: React.FC<ClusterNavProps> = ({
           clusterIPs.map(({ ipAddress, clusterName }) => (
             <li
               key={ipAddress}
-              className={ipAddress === activeTab ? "active" : ""}
-              onClick={() => onTabChange(ipAddress)}
+              className={ipAddress === clusterIPs.ipAddress ? "active" : ""}
+              // onClick={() => onTabChange(clusterIPs)}
             >
               {clusterName}
             </li>
@@ -29,7 +31,7 @@ const ClusterNav: React.FC<ClusterNavProps> = ({
         ) : (
           <></>
         )}
-        <ClusterModal />
+        <ClusterModal/>
       </ul>
     </nav>
   );

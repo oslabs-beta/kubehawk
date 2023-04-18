@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { FileUploader } from 'react-drag-drop-files';
-import SunburstChart from './SunburstChart';
-import TreeGraph from './TreeGraph';
-import ForceGraph from './ForceGraph';
+import SunburstChart from './GraphComponents/SunburstChart';
+import TreeGraph from './GraphComponents/TreeGraph';
+import ForceGraph from './GraphComponents/ForceGraph';
 
 const fileTypes = ['JSON', 'TXT'];
 

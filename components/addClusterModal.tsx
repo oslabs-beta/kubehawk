@@ -17,7 +17,13 @@ export default function ClusterModal() {
 
   const closeHandler = () => {
     setVisible(false);
-    setComponentState({ipAddress, clusterName})
+    setComponentState(prevState => ({
+        ...prevState,
+        currentTab: {
+          ipAddress: ipAddress,
+          clusterName: clusterName
+        }
+      }));
     console.log(componentState)
   };
 
