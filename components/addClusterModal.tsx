@@ -1,11 +1,12 @@
-import React, { ChangeEvent, MouseEvent } from "react";
+import React, { ChangeEvent, MouseEvent, useContext } from "react";
 import { Modal, Button, Text, Input, Row, Checkbox } from "@nextui-org/react";
-
+import StateContext from "../context/AppStateProvider";
 export default function ClusterModal() {
   const [visible, setVisible] = React.useState(false);
   const handler = () => setVisible(true);
   const [ipAddress, setIpAddress]: [string, React.Dispatch<React.SetStateAction<string>>] = React.useState('')
   const [clusterName, setClusterName]: [string, React.Dispatch<React.SetStateAction<string>>] = React.useState('')
+  const { componentState, setComponentState } = useContext(StateContext)
   const handleIpAddressChange = (e: ChangeEvent<HTMLInputElement>): void => {
     setIpAddress(e.target.value);
   };
@@ -16,7 +17,8 @@ export default function ClusterModal() {
 
   const closeHandler = () => {
     setVisible(false);
-    console.log("closed");
+    setComponentState({ipAddress, clusterName})
+    console.log(componentState)
   };
 
   return (
