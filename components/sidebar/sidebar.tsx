@@ -97,11 +97,6 @@ export const SidebarWrapper = () => {
                      />
                      <SidebarItem
                         isActive={router.pathname === '/reports'}
-                        title="Node Exporter"
-                        icon={<ReportsIcon />}
-                     />
-                     <SidebarItem
-                        isActive={router.pathname === '/reports'}
                         title="Kubelet"
                         icon={<ReportsIcon />}
                      />

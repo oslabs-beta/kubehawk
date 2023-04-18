@@ -46,13 +46,6 @@ export const TableWrapper = () => {
                   </Table.Row>
                )}
             </Table.Body>
-            <Table.Pagination
-               shadow
-               noMargin
-               align="center"
-               rowsPerPage={8}
-               onPageChange={(page) => console.log({page})}
-            />
          </Table>
       </Box>
    );

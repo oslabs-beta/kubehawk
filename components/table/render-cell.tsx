@@ -17,8 +17,7 @@ export const RenderCell = ({user, columnKey}: Props) => {
    switch (columnKey) {
       case 'name':
          return (
-            <User squared src={user.avatar} name={cellValue} css={{p: 0}}>
-               {user.email}
+            <User name={cellValue} css={{p: 0}}>
             </User>
          );
       case 'role':

@@ -8,7 +8,6 @@ function GrafDashboard() {
   const [selectedDashboard, setSelectedDashboard] = useState<any>(null);
   // const { ipAddress, clusterName } = router.query;
   const ipAddress: any = 'http://34.123.191.58'
-  console.log(ipAddress);  
   function handleDashboardChange(option) {
     const dashboard = grafanaUrls[option.value];
     setSelectedDashboard(dashboard);
