@@ -1,25 +1,40 @@
-import { createTheme, NextUIProvider } from "@nextui-org/react"
+import '../styles/globals.css';
+import type {AppProps} from 'next/app';
+import {createTheme, NextUIProvider} from '@nextui-org/react';
+import {ThemeProvider as NextThemesProvider} from 'next-themes';
+import {Layout} from '../components/layout/layout';
 
-// 2. Call `createTheme` and pass your custom theme values
-const theme = createTheme({
-  type: "dark", // it could be "light" or "dark"
-  theme: {
-    colors: {
-      primary: '#4ADE7B',
-      secondary: '#F9CB80',
-      error: '#FCC5D8',
-    },
-  }
-})
+const lightTheme = createTheme({
+   type: 'light',
+   theme: {
+      colors: {},
+   },
+});
 
+const darkTheme = createTheme({
+   type: 'dark',
+   theme: {
+      colors: {},
+   },
+});
 
-// 3. Pass the new `theme`` to the `NextUIProvider`
-function Home({ Component, pageProps }) {
-  return (
-    <NextUIProvider theme={theme}>
-      <Component {...pageProps} />
-    </NextUIProvider>
-  )
+function MyApp({Component, pageProps}: AppProps) {
+   return (
+      <NextThemesProvider
+         defaultTheme="system"
+         attribute="class"
+         value={{
+            light: lightTheme.className,
+            dark: darkTheme.className,
+         }}
+      >
+         <NextUIProvider>
+            <Layout>
+               <Component {...pageProps} />
+            </Layout>
+         </NextUIProvider>
+      </NextThemesProvider>
+   );
 }
 
-export default Home
+export default MyApp;
