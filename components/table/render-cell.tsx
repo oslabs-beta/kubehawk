@@ -36,7 +36,7 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
                      size={13}
                      css={{tt: 'capitalize', color: '$accents7'}}
                   >
-                     {cluster.team}
+                     {cluster.IPaddress}
                   </Text>
                </Row>
             </Col>
