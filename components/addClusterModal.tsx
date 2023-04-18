@@ -1,11 +1,18 @@
-import React from "react";
+import React, { ChangeEvent, MouseEvent } from "react";
 import { Modal, Button, Text, Input, Row, Checkbox } from "@nextui-org/react";
-// import { ClusterIP } from "./ClusterIP";
-import { ClusterName } from "./ClusterName";
 
 export default function ClusterModal() {
   const [visible, setVisible] = React.useState(false);
   const handler = () => setVisible(true);
+  const [ipAddress, setIpAddress]: [string, React.Dispatch<React.SetStateAction<string>>] = React.useState('')
+  const [clusterName, setClusterName]: [string, React.Dispatch<React.SetStateAction<string>>] = React.useState('')
+  const handleIpAddressChange = (e: ChangeEvent<HTMLInputElement>): void => {
+    setIpAddress(e.target.value);
+  };
+  const handleClusterNameChange = (e: ChangeEvent<HTMLInputElement>): void => {
+    console.log(e.target.value)
+    setClusterName(e.target.value);
+  };
 
   const closeHandler = () => {
     setVisible(false);
@@ -39,6 +46,8 @@ export default function ClusterModal() {
             color="primary"
             size="lg"
             placeholder="Grafana Endpoint"
+            aria-label="Grafana Endpoint"
+            onChange={handleIpAddressChange}
           />
           <Input
             clearable
@@ -47,13 +56,15 @@ export default function ClusterModal() {
             color="primary"
             size="lg"
             placeholder="Cluster Name"
+            aria-label="Cluster Name"
+            onChange={handleClusterNameChange}
           />
         </Modal.Body>
         <Modal.Footer>
-          <Button auto flat color="error" onPress={closeHandler}>
+          <Button auto flat color="error" onPress={closeHandler} aria-label="Close">
             Close
           </Button>
-          <Button auto onPress={closeHandler}>
+          <Button auto onPress={closeHandler} aria-label="Add a cluster">
             Add a cluster
           </Button>
         </Modal.Footer>
