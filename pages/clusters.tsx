@@ -1,8 +1,8 @@
 import React from 'react';
-import {Accounts} from '../components/accounts';
+import {Clusters} from '../components/clusterlist';
 
 const accounts = () => {
-   return <Accounts />;
+   return <Clusters />;
 };
 
 export default accounts;

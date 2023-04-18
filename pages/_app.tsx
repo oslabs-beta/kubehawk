@@ -3,6 +3,10 @@ import type {AppProps} from 'next/app';
 import {createTheme, NextUIProvider} from '@nextui-org/react';
 import {ThemeProvider as NextThemesProvider} from 'next-themes';
 import {Layout} from '../components/layout/layout';
+import {Content} from '../components/home/content';
+import { StateContext } from '../context/StateContext';
+import React, { useState } from 'react';
+import { StateContextType } from '../context/StateContext';
 
 const lightTheme = createTheme({
    type: 'light',
@@ -19,6 +23,13 @@ const darkTheme = createTheme({
 });
 
 function MyApp({Component, pageProps}: AppProps) {
+   const [componentState, setComponentState] = useState<StateContextType['componentState']>(
+      {
+        clusters: [],
+        currentTab: { ipAddress: '', clusterName: '' },
+      }
+    );
+  
    return (
       <NextThemesProvider
          defaultTheme="system"
@@ -29,9 +40,11 @@ function MyApp({Component, pageProps}: AppProps) {
          }}
       >
          <NextUIProvider>
+         <StateContext.Provider value={{ componentState, setComponentState }}>
             <Layout>
                <Component {...pageProps} />
             </Layout>
+            </StateContext.Provider>
          </NextUIProvider>
       </NextThemesProvider>
    );

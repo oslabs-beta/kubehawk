@@ -21,6 +21,9 @@ import {useRouter} from 'next/router';
 export const SidebarWrapper = () => {
    const router = useRouter();
    const {collapsed, setCollapsed} = useSidebarContext();
+   const handleclicky = ()=>{
+      console.log('IT CLICKED')
+   }
 
    return (
       <Box

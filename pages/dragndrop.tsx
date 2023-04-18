@@ -1,9 +1,9 @@
 import React from 'react';
-import DragnDrop from '../components/DragnDrop';
-
+import { DragnDrop } from '../components/jsonloader/DragnDrop'
+import { DropIt } from '../components/jsonloader/DropIt';
 
 const dragndrop = () => {
-   return <DragnDrop />;
+return <DragnDrop />
 };
 
 export default dragndrop;
