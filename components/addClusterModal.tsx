@@ -7,11 +7,6 @@ interface AppState {
     currentTab: { ipAddress: string; clusterName: string; };
   }
   
-//   const initialState: AppState = {
-//     clusters: [],
-//     currentTab: { ipAddress: '', clusterName: '' }
-//   };
-  
   export default function ClusterModal() {
     const [visible, setVisible] = React.useState(false);
     const handler = () => setVisible(true);
