@@ -3,12 +3,14 @@ import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import { useRouter } from 'next/navigation';
 import { grafanaUrls} from '../lib/grafanaUrlCreator' // assuming the file extension is .ts
-
+import { useContext } from 'react';
+import StateContext from '../context/StateContext';
 function GrafDashboard() {
+  const {componentState, setComponentState} = useContext(StateContext)
+  const ipAddress:string | null = componentState.currentTab.ipAddress
   const [selectedDashboard, setSelectedDashboard] = useState<any>(null);
-  const router = useRouter();
   // const { ipAddress, clusterName } = router.query;
-  const ipAddress: any = 'http://34.123.191.58'
+  
   console.log(ipAddress);  
   function handleDashboardChange(option) {
     const dashboard = grafanaUrls[option.value];
