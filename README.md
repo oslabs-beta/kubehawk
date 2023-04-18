@@ -49,8 +49,9 @@ Docker installed (if running locally)
 2. Install dependencies: <br/>
    `npm install`
 3. Make sure your Kubernetes cluster is up and running with Prometheus and Grafana exposed.
-    * Expose your Prometheus and Grafana endpoints
-    * Export your RBAC bindings to your local computer
+    * [Expose your Prometheus and Grafana endpoints](https://github.com/oslabs-beta/kubehawk/blob/next-dashboard/clusterSetup.md)
+    * [Export your RBAC bindings to your local computer](https://github.com/oslabs-beta/kubehawk/blob/next-dashboard/clusterSetup.md#export-your-rbac-bindings-to-your-localhost)
+
 4. Run our program and visit the local <br/>
     `npm run dev`
 
