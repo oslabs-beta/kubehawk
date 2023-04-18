@@ -1,11 +1,23 @@
 import React, { ChangeEvent, MouseEvent, useContext } from "react";
 import { Modal, Button, Text, Input, Row, Checkbox } from "@nextui-org/react";
 import StateContext from "../context/StateContext";
+interface AppState {
+    clusters: { ipAddress: string; clusterName: string; }[];
+    currentTab: { ipAddress: string; clusterName: string; };
+  }
+  
+  const initialState: AppState = {
+    clusters: [],
+    currentTab: { ipAddress: '', clusterName: '' }
+  };
+  
 export default function ClusterModal() {
   const [visible, setVisible] = React.useState(false);
   const handler = () => setVisible(true);
+
   const [ipAddress, setIpAddress]: [string, React.Dispatch<React.SetStateAction<string>>] = React.useState('')
   const [clusterName, setClusterName]: [string, React.Dispatch<React.SetStateAction<string>>] = React.useState('')
+
   const { componentState, setComponentState } = useContext(StateContext)
   const handleIpAddressChange = (e: ChangeEvent<HTMLInputElement>): void => {
     setIpAddress(e.target.value);
@@ -14,18 +26,14 @@ export default function ClusterModal() {
     console.log(e.target.value)
     setClusterName(e.target.value);
   };
-
-  const closeHandler = () => {
-    setVisible(false);
-    setComponentState(prevState => ({
-        ...prevState,
-        currentTab: {
-          ipAddress: ipAddress,
-          clusterName: clusterName
-        }
-      }));
-    console.log(componentState)
-  };
+  const closeHandler= ((prevState) => ({
+    ...prevState,
+    clusters: [...prevState.clusters, {ipAddress, clusterName}],
+    currentTab: {
+      ipAddress: ipAddress,
+      clusterName: clusterName
+    }
+  }));
 
   return (
     <div>
@@ -36,7 +44,7 @@ export default function ClusterModal() {
         closeButton
         aria-labelledby="modal-title"
         open={visible}
-        onClose={closeHandler}
+        onClose={() => }
       >
         <Modal.Header>
           <Text id="modal-title" size={18}>
@@ -72,7 +80,8 @@ export default function ClusterModal() {
           <Button auto flat color="error" onPress={closeHandler} aria-label="Close">
             Close
           </Button>
-          <Button auto onPress={closeHandler} aria-label="Add a cluster">
+          <Button auto onPress={() => {
+            closeHandler}} aria-label="Add a cluster">
             Add a cluster
           </Button>
         </Modal.Footer>

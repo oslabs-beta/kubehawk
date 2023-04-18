@@ -8,10 +8,7 @@ import ClusterNav from './ClusterNav';
 import InputCluster from './InputCluster';
 import StateContext from '../context/StateContext';
 import { StateContextType } from '../context/StateContext';
-// interface DashboardProps {
-//   clusters?: Array<{}>;
-//   currentTab: {};
-// }
+
 
 const Dashboard: NextPage = () => {
   const { componentState, setComponentState} = useContext(StateContext);

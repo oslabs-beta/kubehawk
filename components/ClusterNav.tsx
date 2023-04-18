@@ -1,5 +1,6 @@
 import ClusterModal from "./addClusterModal";
-
+import { useContext } from "react";
+import StateContext from "../context/StateContext";
 interface ClusterNavProps {
   clusterIPs?: Array<{ ipAddress: string; clusterName: string }>;
   currentTab?: { ipAddress: string; clusterName: string };
@@ -15,14 +16,15 @@ const ClusterNav: React.FC<ClusterNavProps> = ({
   onTabChange,
   setClusters,
 }) => {
+  const {componentState, setComponentState} = useContext(StateContext)
   return (
     <nav className="ip-navbar">
       <ul>
         {clusterIPs && clusterIPs.length > 0 ? (
           clusterIPs.map(({ ipAddress, clusterName }) => (
             <li
-              key={ipAddress}
-              className={ipAddress === clusterIPs.ipAddress ? "active" : ""}
+              key={componentState.ipAddress}
+              className={ipAddress === componentState.ipAddress ? "active" : ""}
               // onClick={() => onTabChange(clusterIPs)}
             >
               {clusterName}
