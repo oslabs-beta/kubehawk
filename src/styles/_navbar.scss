@@ -19,9 +19,10 @@
   #left-nav{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: .8rem;
+    margin-right: 10px;
     
-
     img{
       width: 30px;
     }
@@ -51,6 +52,42 @@
     padding: 0 1rem;
     text-decoration: none;
   }
+
+  .team-info-btn {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .team-info-btn:hover {
+    text-decoration: none;
+  }
+  
+  /* Reset the other button styles for the team-info-btn */
+  .team-info-btn {
+    height: auto;
+    width: auto;
+    font-size: inherit;
+    border-radius: 0;
+    margin: 0;
+    background-color: transparent;
+    color: black;
+    border: transparent;
+  }
+  
+  .team-info-btn:hover {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .team-info-btn:active {
+    box-shadow: none;
+    transform: none;
+  }
+
   button {
     height: 30px;
     width: 120px;
@@ -80,5 +117,33 @@
     transform: translateY(2px);
   }
   
+}
+
+/* Add a new class for the close button */
+.close-modal-btn {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+
+.close-modal-btn:hover {
+  text-decoration: none;
+}
+
+/* Reset any conflicting styles from the react-modal library */
+.react-modal-close-btn {
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 

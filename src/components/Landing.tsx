@@ -8,6 +8,7 @@ import LandingTeam from "./LandingTeam";
 import splash5 from "./assets/splash5.png";
 import splash6 from "./assets/splash6.png";
 import splash7 from "./assets/splash7.png";
+import TeamInfoModal from "./LandingContactModal";
 
 function Landing() {
   const navItems = ["Contact", "About"].map((item, i) => {

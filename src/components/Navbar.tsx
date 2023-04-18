@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "./assets/hawk-logo.png";
 import NavbarProps from "../types.ts";
+import LandingContactModal from "./LandingContactModal";
+import LandingAboutUsModal from "./LandingAboutUsModal";
 
 function Navbar(props: NavbarProps) {
   const kubeButton = props.kubeButton || "";
@@ -13,7 +15,8 @@ function Navbar(props: NavbarProps) {
       </div>
       <div id="left-nav">
         {kubeButton}
-        <ul>{props.navItems}</ul>
+        <LandingContactModal></LandingContactModal>
+        <LandingAboutUsModal></LandingAboutUsModal>
       </div>
     </div>
   );
