@@ -45,6 +45,7 @@
         helm repo update 
 
 6. Create Prometheus namespace 
+
         kubectl create namespace prometheus
 
 6. Install Prometheus Kube Stack 
@@ -89,7 +90,9 @@
         helm repo update 
 
 7. Create Prometheus monitoring namespace
+
         kubectl create namespace prometheus
+
 7. Install Prometheus Kube Stack
 
         helm install stable prometheus-community/kube-prometheus-stack -n prometheus
@@ -113,11 +116,14 @@
 ## Expose Prometheus and Grafana Services
 
 1. In your Kubectl command line on your cloud platform of choice(Google Cloud Command Line or EKSCTL), get the names of the Prometheus and Grafana services
+
         kubectl get svc -n prometheus
 
 2. Edit Prometheus service
+
         kubectl edit svc stable-kube-prometheus-sta-prometheus -n prometheus
 3. In order to make prometheus and grafana available outside the cluster, change type from ClusterIP to LoadBalancer.
+
         <img src="./readMeStaticFiles/loadBalancer.png">
 
 3. In the Cloud Shell, delete the pod to restart it with the new configuration.
