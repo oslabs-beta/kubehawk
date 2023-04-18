@@ -1,12 +1,15 @@
-import GrafDashboard from "../components/dashboards/GrafDashboard"
+import { GrafDashboard } from "../components/dashboards/GrafDashboard"
+import { StateContext } from "../context/StateContext"
+import { useContext } from "react"
 
 
-
-function dashboard() {
-
+function Dashboard() {
+  const { componentState, setComponentState} = useContext(StateContext)
+  const title: any = componentState.currentTitle
+  console.log(componentState.currentTitle)
   return (
-    <GrafDashboard  />
+    <GrafDashboard title={title} />
   )
 }
 
-export default dashboard
+export default Dashboard

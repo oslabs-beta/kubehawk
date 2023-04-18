@@ -10,7 +10,7 @@ import {CardBalance2} from './card-balance2';
 import {CardBalance3} from './card-balance3';
 import {CardAgents} from './card-agents';
 import {CardTransactions} from './card-transactions';
-import GrafDashboard from '../dashboards/GrafDashboard';
+
 
 const Chart = dynamic(
    () => import('../charts/steam').then((mod) => mod.Steam),
@@ -74,7 +74,7 @@ export const Content = () => (
                >
                   Cluster Metrics (TITLE HERE)
                </Text>
-               <GrafDashboard />
+               {/* <GrafDashboard /> */}
             </Box>
 
          </Flex>

@@ -3,18 +3,29 @@ import NextLink from 'next/link';
 import React from 'react';
 import {useSidebarContext} from '../layout/layout-context';
 import {Flex} from '../styles/flex';
+import { StateContext } from '../../context/StateContext';
+import { useContext } from "react"
+
 
 interface Props {
    title: string;
+   dashTitle?: string;
    icon: React.ReactNode;
    isActive?: boolean;
    href?: string;
 }
 
-export const SidebarItem = ({icon, title, isActive, href = ''}: Props) => {
+export const SidebarItem = ({icon, title, dashTitle, isActive, href = ''}: Props) => {
    const {collapsed, setCollapsed} = useSidebarContext();
-
+   const { componentState, setComponentState} = useContext(StateContext)
+   
    const handleClick = () => {
+      setComponentState((prevState): StateContextType => {
+         return {
+            ...prevState,
+            currentTitle: dashTitle
+         }
+      })
       if (window.innerWidth < 768) {
          setCollapsed();
       }

@@ -2,8 +2,8 @@ import React from 'react';
 import { DragnDrop } from '../components/jsonloader/DragnDrop'
 import { DropIt } from '../components/jsonloader/DropIt';
 
-const dragndrop = () => {
+const Dragndrop = () => {
 return <DragnDrop />
 };
 
-export default dragndrop;
+export default Dragndrop;

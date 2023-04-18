@@ -27,6 +27,7 @@ function MyApp({Component, pageProps}: AppProps) {
       {
         clusters: [],
         currentTab: { ipAddress: '', clusterName: '' },
+        currentTitle: undefined
       }
     );
   

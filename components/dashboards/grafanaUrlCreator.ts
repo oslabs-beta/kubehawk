@@ -1,3 +1,14 @@
+interface GrafanaUrls {
+  [key: string]: {
+    id: string;
+    name: string;
+    title: string;
+    size: number;
+    urls: string[];
+  };
+}
+
+
 export function createFrames(id:string, name: string, size: number): string[] {
     const frames: string[] = [];
     //Updates iFrame time to the most recent 1 hour interval
@@ -13,7 +24,7 @@ export function createFrames(id:string, name: string, size: number): string[] {
 }
   
 export const grafanaUrls = {
-    alertManager: {
+    AlertManager: {
       id: 'alertmanager-overview',
       name: 'alertmanager-overview',
       size: 15,
