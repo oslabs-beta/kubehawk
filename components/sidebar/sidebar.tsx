@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
 import {Box} from '../styles/box';
 import {Sidebar} from './sidebar.styles';
-import {Avatar, Tooltip} from '@nextui-org/react';
+import {Avatar, Tooltip, Text} from '@nextui-org/react';
 import {Flex} from '../styles/flex';
-import {CompaniesDropdown} from './companies-dropdown';
 import {HomeIcon} from '../icons/sidebar/home-icon';
 import {PaymentsIcon} from '../icons/sidebar/payments-icon';
 import {BalanceIcon} from '../icons/sidebar/balance-icon';
@@ -40,7 +39,25 @@ export const SidebarWrapper = () => {
 
          <Sidebar collapsed={collapsed}>
             <Sidebar.Header>
-               <CompaniesDropdown />
+            <Box>
+               <Flex align={'center'} css={{gap: '$7'}}>
+                  <Box>
+                     <Text
+                        h3
+                        size={'$xl'}
+                        weight={'medium'}
+                        css={{
+                           m: 0,
+                           color: '$accents9',
+                           lineHeight: '$lg',
+                           mb: '-$5',
+                        }}
+                     >
+                        KubeHawk
+                     </Text>
+                  </Box>
+               </Flex>
+            </Box>
             </Sidebar.Header>
             <Flex
                direction={'column'}

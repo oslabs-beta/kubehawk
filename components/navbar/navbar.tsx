@@ -1,31 +1,18 @@
-import {Input, Link, Navbar, Text} from '@nextui-org/react';
+import {Link, Navbar, Switch, Text} from '@nextui-org/react';
 import React from 'react';
-import {FeedbackIcon} from '../icons/navbar/feedback-icon';
 import {GithubIcon} from '../icons/navbar/github-icon';
 import {SupportIcon} from '../icons/navbar/support-icon';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
 import {BurguerButton} from './burguer-button';
-import {NotificationsDropdown} from './notifications-dropdown';
-import {UserDropdown} from './user-dropdown';
+import { DarkModeSwitch } from './darkmodeswitch';
 
 interface Props {
    children: React.ReactNode;
 }
 
 export const NavbarWrapper = ({children}: Props) => {
-   const collapseItems = [
-      'Profile',
-      'Dashboard',
-      'Activity',
-      'Analytics',
-      'System',
-      'Deployments',
-      'My Settings',
-      'Team Settings',
-      'Help & Feedback',
-      'Log Out',
-   ];
+
    return (
       <Box
          css={{
@@ -58,60 +45,41 @@ export const NavbarWrapper = ({children}: Props) => {
                },
             }}
          >
-            <Navbar.Content showIn="md">
+            {/* RIGHT SIDE CONTENT */}
+            <Navbar.Content>
                <BurguerButton />
             </Navbar.Content>
-            <Navbar.Content>
-               <Navbar.Content hideIn={'md'}>
-                  <Flex align={'center'} css={{gap: '$4'}}>
-                     <FeedbackIcon />
-                     <Text span>Feedback?</Text>
-                  </Flex>
-               </Navbar.Content>
 
+            {/* LEFT SIDE CONTENT */}
+            <Navbar.Content>  
                <Navbar.Content>
-                  <NotificationsDropdown />
-               </Navbar.Content>
-
-               <Navbar.Content hideIn={'md'}>
-                  <SupportIcon />
+               <Link
+                     href="https://github.com/oslabs-beta/kubehawk"
+                     target={'_blank'}
+                  >
+                  <Text>
+                     Documentation
+                  </Text>
+                  </Link>
                </Navbar.Content>
                <Navbar.Content>
                   <Link
-                     href="https://github.com/"
+                     href="https://github.com/oslabs-beta/kubehawk"
                      target={'_blank'}
                   >
                      <GithubIcon />
                   </Link>
                </Navbar.Content>
                <Navbar.Content>
-                  <UserDropdown />
+                  <Link href="https://www.kubehawk.com"
+                  target={'_blank'}>
+                  <SupportIcon />
+                  </Link>
+               </Navbar.Content>
+               <Navbar.Content>
+                  <DarkModeSwitch />
                </Navbar.Content>
             </Navbar.Content>
-
-            <Navbar.Collapse>
-               {collapseItems.map((item, index) => (
-                  <Navbar.CollapseItem
-                     key={item}
-                     activeColor="secondary"
-                     css={{
-                        color:
-                           index === collapseItems.length - 1 ? '$error' : '',
-                     }}
-                     isActive={index === 2}
-                  >
-                     <Link
-                        color="inherit"
-                        css={{
-                           minWidth: '100%',
-                        }}
-                        href="#"
-                     >
-                        {item}
-                     </Link>
-                  </Navbar.CollapseItem>
-               ))}
-            </Navbar.Collapse>
          </Navbar>
          {children}
       </Box>

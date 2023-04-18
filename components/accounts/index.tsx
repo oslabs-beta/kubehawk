@@ -11,7 +11,7 @@ import {UsersIcon} from '../icons/breadcrumb/users-icon';
 import {SettingsIcon} from '../icons/sidebar/settings-icon';
 import {Flex} from '../styles/flex';
 import {TableWrapper} from '../table/table';
-import {AddUser} from './add-user';
+import {AddCluster} from './add-cluster'
 
 export const Accounts = () => {
    return (
@@ -29,24 +29,17 @@ export const Accounts = () => {
       >
          <Breadcrumbs>
             <Crumb>
-               <HouseIcon />
                <Link href={'/'}>
-                  <CrumbLink href="#">Home</CrumbLink>
+                  <CrumbLink href="#">Back to Dashboard</CrumbLink>
                </Link>
                <Text>/</Text>
             </Crumb>
-
             <Crumb>
-               <UsersIcon />
-               <CrumbLink href="#">Users</CrumbLink>
-               <Text>/</Text>
-            </Crumb>
-            <Crumb>
-               <CrumbLink href="#">List</CrumbLink>
+               <CrumbLink href="#">Cluster IP Addresses</CrumbLink>
             </Crumb>
          </Breadcrumbs>
 
-         <Text h3>All Accounts</Text>
+         <Text h3>Active Clusters List</Text>
          <Flex
             css={{gap: '$8'}}
             align={'center'}
@@ -63,18 +56,12 @@ export const Accounts = () => {
             >
                <Input
                   css={{width: '100%', maxW: '410px'}}
-                  placeholder="Search users"
+                  placeholder="Search Clusters"
                />
                <SettingsIcon />
-               <TrashIcon />
-               <InfoIcon />
-               <DotsIcon />
             </Flex>
             <Flex direction={'row'} css={{gap: '$6'}} wrap={'wrap'}>
-               <AddUser />
-               <Button auto iconRight={<ExportIcon />}>
-                  Export to CSV
-               </Button>
+               <AddCluster />
             </Flex>
          </Flex>
 
