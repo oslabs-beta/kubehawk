@@ -1,7 +1,7 @@
 import {Table} from '@nextui-org/react';
 import React from 'react';
 import {Box} from '../styles/box';
-import {columns, users} from './data';
+import {columns, clusters} from './data';
 import {RenderCell} from './render-cell';
 
 export const TableWrapper = () => {
@@ -35,12 +35,12 @@ export const TableWrapper = () => {
                   </Table.Column>
                )}
             </Table.Header>
-            <Table.Body items={users}>
+            <Table.Body items={clusters}>
                {(item) => (
                   <Table.Row>
                      {(columnKey) => (
                         <Table.Cell>
-                           {RenderCell({user: item, columnKey: columnKey})}
+                           {RenderCell({cluster: item, columnKey: columnKey})}
                         </Table.Cell>
                      )}
                   </Table.Row>

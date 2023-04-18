@@ -1,18 +1,14 @@
 import React, {useState} from 'react';
 import {Box} from '../styles/box';
 import {Sidebar} from './sidebar.styles';
-import {Avatar, Tooltip, Text, Link} from '@nextui-org/react';
+import {Tooltip, Text, Link} from '@nextui-org/react';
 import {Flex} from '../styles/flex';
 import {GithubIcon} from '../icons/navbar/github-icon';
-import {HomeIcon} from '../icons/sidebar/home-icon';
 import {PaymentsIcon} from '../icons/sidebar/payments-icon';
-import {BalanceIcon} from '../icons/sidebar/balance-icon';
 import {AccountsIcon} from '../icons/sidebar/accounts-icon';
 import {CustomersIcon} from '../icons/sidebar/customers-icon';
 import {ProductsIcon} from '../icons/sidebar/products-icon';
 import {ReportsIcon} from '../icons/sidebar/reports-icon';
-import {DevIcon} from '../icons/sidebar/dev-icon';
-import {ViewIcon} from '../icons/sidebar/view-icon';
 import {SettingsIcon} from '../icons/sidebar/settings-icon';
 import {CollapseItems} from './collapse-items';
 import {SidebarItem} from './sidebar-item';
@@ -105,16 +101,19 @@ export const SidebarWrapper = () => {
                      <SidebarItem
                         title="Roles Based Access"
                         icon={<ChangeLogIcon />}
-                        isActive={router.pathname === '/reports'}
+                        isActive={router.pathname === '/dragndrop'}
+                        href='/dragndrop'
 
                      />
                   </SidebarMenu>
                   <SidebarMenu title="Learn More">
-                     <SidebarItem
-                        title="Kubernetes Docs"
-                        icon={<ChangeLogIcon />}
+                        <Link 
                         href="https://kubernetes.io/docs/home/"
-                     />
+                        target={'_blank'}>
+                           <Text>
+                              Kubernetes Docs
+                           </Text>
+                        </Link>
                   </SidebarMenu>
                </Sidebar.Body>
                <Sidebar.Footer>

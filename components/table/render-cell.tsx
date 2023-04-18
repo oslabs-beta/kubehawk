@@ -3,46 +3,43 @@ import React from 'react';
 import {DeleteIcon} from '../icons/table/delete-icon';
 import {EditIcon} from '../icons/table/edit-icon';
 import {EyeIcon} from '../icons/table/eye-icon';
-import {users} from './data';
+import {clusters} from './data';
 import {IconButton, StyledBadge} from './table.styled';
 
 interface Props {
-   user: typeof users[number];
+   cluster: typeof clusters[number];
    columnKey: string | React.Key;
 }
 
-export const RenderCell = ({user, columnKey}: Props) => {
+export const RenderCell = ({cluster, columnKey}: Props) => {
    // @ts-ignore
-   const cellValue = user[columnKey];
+   const cellValue = cluster[columnKey];
    switch (columnKey) {
       case 'name':
          return (
-            <User name={cellValue} css={{p: 0}}>
-            </User>
+            <Row>
+            <Text
+               b
+               size={13}
+               css={{tt: 'capitalize', color: '$accents7'}}
+            >
+               {cluster.name}
+            </Text>
+         </Row>
          );
       case 'role':
          return (
             <Col>
-               <Row>
-                  <Text b size={14} css={{tt: 'capitalize'}}>
-                     {cellValue}
-                  </Text>
-               </Row>
                <Row>
                   <Text
                      b
                      size={13}
                      css={{tt: 'capitalize', color: '$accents7'}}
                   >
-                     {user.team}
+                     {cluster.team}
                   </Text>
                </Row>
             </Col>
-         );
-      case 'status':
-         return (
-            // @ts-ignore
-            <StyledBadge type={String(user.status)}>{cellValue}</StyledBadge>
          );
 
       case 'actions':
@@ -52,19 +49,11 @@ export const RenderCell = ({user, columnKey}: Props) => {
                align="center"
                css={{'gap': '$8', '@md': {gap: 0}}}
             >
+
                <Col css={{d: 'flex'}}>
-                  <Tooltip content="Details">
+                  <Tooltip content="Edit cluster">
                      <IconButton
-                        onClick={() => console.log('View user', user.id)}
-                     >
-                        <EyeIcon size={20} fill="#979797" />
-                     </IconButton>
-                  </Tooltip>
-               </Col>
-               <Col css={{d: 'flex'}}>
-                  <Tooltip content="Edit user">
-                     <IconButton
-                        onClick={() => console.log('Edit user', user.id)}
+                        onClick={() => console.log('Edit cluster', cluster.id)}
                      >
                         <EditIcon size={20} fill="#979797" />
                      </IconButton>
@@ -72,9 +61,9 @@ export const RenderCell = ({user, columnKey}: Props) => {
                </Col>
                <Col css={{d: 'flex'}}>
                   <Tooltip
-                     content="Delete user"
+                     content="Delete cluster"
                      color="error"
-                     onClick={() => console.log('Delete user', user.id)}
+                     onClick={() => console.log('Delete cluster', cluster.id)}
                   >
                      <IconButton>
                         <DeleteIcon size={20} fill="#FF0080" />
