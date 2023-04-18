@@ -25,7 +25,7 @@ const ClusterNav: React.FC<ClusterNavProps> = ({
             {ipAddress}
           </li>
         ))}
-       <ClusterModal onClick={() => onAddTab("newClusterIP")} />
+       {/* <ClusterModal onClick={() => onAddTab("newClusterIP")} /> */}
       </ul>
     </nav>
   );

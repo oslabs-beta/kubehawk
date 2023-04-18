@@ -20,10 +20,8 @@ function Navbar() {
        <ul>
       {/* {props.navItems} */}
       </ul>
-        </div>
-        
+        </div>     
     </div>
-
   )
 }
 

@@ -1,20 +1,25 @@
-import './styles/application.scss'
-import { NextUIProvider } from '@nextui-org/react';
+import { createTheme, NextUIProvider } from "@nextui-org/react"
 
-function MyApp({ Component, pageProps }) {
+// 2. Call `createTheme` and pass your custom theme values
+const theme = createTheme({
+  type: "dark", // it could be "light" or "dark"
+  theme: {
+    colors: {
+      primary: '#4ADE7B',
+      secondary: '#F9CB80',
+      error: '#FCC5D8',
+    },
+  }
+})
+
+
+// 3. Pass the new `theme`` to the `NextUIProvider`
+function Home({ Component, pageProps }) {
   return (
-    <div>
-      <header>
-        {/* You can add a global header here */}
-      </header>
-      <NextUIProvider>
+    <NextUIProvider theme={theme}>
       <Component {...pageProps} />
-      </NextUIProvider>
-      <footer>
-        {/* You can add a global footer here */}
-      </footer>
-    </div>
+    </NextUIProvider>
   )
 }
 
-export default MyApp
+export default Home

@@ -38,7 +38,7 @@ const Dashboard: NextPage = () => {
 
   return (
     <div id="dash-container">
-      <Navbar />
+
       <ClusterNav
         clusterIPs={clusterIPs}
         activeTab={activeTab}
