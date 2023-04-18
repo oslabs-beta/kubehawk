@@ -2,7 +2,7 @@
 import { NextPage } from 'next';
 import dynamic from 'next/dynamic';
 
-import Navbar from '../components/Navbar';
+import Navbar from './testnav';
 import LeftBar from '../components/LeftBar';
 import { useState } from 'react';
 import ClusterNav from './ClusterTabs';
