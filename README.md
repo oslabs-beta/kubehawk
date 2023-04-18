@@ -27,15 +27,32 @@ Check out our [website](https://www.kubehawk.com)!
 
 <br/>
 
+## Features
+1. Intuitive visualization of RBAC in your Kubernetes cluster
+2. Real-time cluster health metrics monitoring, including pod status, resource utilization, and network traffic
+3. No online database! We keep your data on your local machine for maximum security
+4. Lightweight and highly efficient design for minimal impact on cluster performance
+5. Cross-platform compatibility (Local, GKE, AWS) for seamless integration into your existing infrastructure
+6. Easily extensible for future improvements, making it an ideal choice for teams looking to customize and enhance their security monitoring capabilities
+7. Enhanced security and adherence to best practices, ensuring the safety and integrity of your valuable data and applications
+
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+
+Kubernetes cluster version 1.18 or higher
+kubectl version 1.18 or higher
+Docker installed (if running locally)
+
 # Getting Started
-1. Fork and clone the repo: 
+1. Fork and clone the repo: <br/>
    `git clone https://github.com/oslabs-beta/kubehawk.git`
-2. Install dependencies:
+2. Install dependencies: <br/>
    `npm install`
 3. Make sure your Kubernetes cluster is up and running with Prometheus and Grafana exposed.
-    * Expose your Prometheus and Grafana endpoints
-    * Export your RBAC bindings to your local computer
-4. Run our program and visit the local 
+    * [Expose your Prometheus and Grafana endpoints](https://github.com/oslabs-beta/kubehawk/blob/next-dashboard/clusterSetup.md)
+    * [Export your RBAC bindings to your local computer](https://github.com/oslabs-beta/kubehawk/blob/next-dashboard/clusterSetup.md#export-your-rbac-bindings-to-your-localhost)
+
+4. Run our program and visit the local <br/>
     `npm run dev`
 
 # Contribution
