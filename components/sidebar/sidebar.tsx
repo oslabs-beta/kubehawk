@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import {Box} from '../styles/box';
 import {Sidebar} from './sidebar.styles';
-import {Avatar, Tooltip, Text} from '@nextui-org/react';
+import {Avatar, Tooltip, Text, Link} from '@nextui-org/react';
 import {Flex} from '../styles/flex';
+import {GithubIcon} from '../icons/navbar/github-icon';
 import {HomeIcon} from '../icons/sidebar/home-icon';
 import {PaymentsIcon} from '../icons/sidebar/payments-icon';
 import {BalanceIcon} from '../icons/sidebar/balance-icon';
@@ -65,70 +66,62 @@ export const SidebarWrapper = () => {
                css={{height: '100%'}}
             >
                <Sidebar.Body className="body sidebar">
-                  <SidebarItem
-                     title="Home"
-                     icon={<HomeIcon />}
-                     isActive={router.pathname === '/'}
-                     href="/"
-                  />
-                  <SidebarMenu title="Main Menu">
+                  <SidebarMenu title="Clusters">
                      <SidebarItem
-                        isActive={router.pathname === '/accounts'}
-                        title="Accounts"
+                        isActive={router.pathname === '/clusters'}
+                        title="Cluster List"
                         icon={<AccountsIcon />}
-                        href="accounts"
+                        href="clusters"
                      />
+                  </SidebarMenu>
+                   <SidebarMenu title="Observable Metrics">    
                      <SidebarItem
                         isActive={router.pathname === '/payments'}
-                        title="Payments"
+                        title="Alert Manager"
                         icon={<PaymentsIcon />}
                      />
-                     <CollapseItems
-                        icon={<BalanceIcon />}
-                        items={['Banks Accounts', 'Credit Cards', 'Loans']}
-                        title="Balances"
-                     />
-
                      <SidebarItem
                         isActive={router.pathname === '/customers'}
-                        title="Customers"
+                        title="Cluster Resources"
                         icon={<CustomersIcon />}
                      />
                      <SidebarItem
                         isActive={router.pathname === '/products'}
-                        title="Products"
+                        title="Cluster Network"
                         icon={<ProductsIcon />}
                      />
                      <SidebarItem
                         isActive={router.pathname === '/reports'}
-                        title="Reports"
+                        title="Node Exporter"
                         icon={<ReportsIcon />}
                      />
-                  </SidebarMenu>
+                     <SidebarItem
+                        isActive={router.pathname === '/reports'}
+                        title="Node Exporter"
+                        icon={<ReportsIcon />}
+                     />
+                     <SidebarItem
+                        isActive={router.pathname === '/reports'}
+                        title="Kubelet"
+                        icon={<ReportsIcon />}
+                     />
+               </SidebarMenu> 
 
-                  <SidebarMenu title="General">
+                  <SidebarMenu title="Learn More">
                      <SidebarItem
-                        isActive={router.pathname === '/developers'}
-                        title="Developers"
-                        icon={<DevIcon />}
-                     />
-                     <SidebarItem
-                        isActive={router.pathname === '/view'}
-                        title="View Test Data"
-                        icon={<ViewIcon />}
-                     />
-                     <SidebarItem
-                        isActive={router.pathname === '/settings'}
-                        title="Settings"
-                        icon={<SettingsIcon />}
-                     />
-                  </SidebarMenu>
-
-                  <SidebarMenu title="Updates">
-                     <SidebarItem
-                        isActive={router.pathname === '/changelog'}
-                        title="Changelog"
+                        title="Kubernetes Docs"
                         icon={<ChangeLogIcon />}
+                        href="https://kubernetes.io/docs/home/"
+                     />
+                     <SidebarItem
+                        title="Google GKE"
+                        icon={<ChangeLogIcon />}
+                        href="https://cloud.google.com/kubernetes-engine"
+                     />
+                                          <SidebarItem
+                        title="Amazon EKS"
+                        icon={<ChangeLogIcon />}
+                        href="https://aws.amazon.com/eks/"
                      />
                   </SidebarMenu>
                </Sidebar.Body>
@@ -139,11 +132,12 @@ export const SidebarWrapper = () => {
                   <Tooltip content={'Adjustments'} rounded color="primary">
                      <FilterIcon />
                   </Tooltip>
-                  <Tooltip content={'Profile'} rounded color="primary">
-                     <Avatar
-                        src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-                        size={'sm'}
-                     />
+                  <Tooltip content={'Documentation'} rounded color="primary">
+                  <Link
+                     href="https://github.com/oslabs-beta/kubehawk"
+                     target={'_blank'}>
+                     <GithubIcon />
+                  </Link>
                   </Tooltip>
                </Sidebar.Footer>
             </Flex>

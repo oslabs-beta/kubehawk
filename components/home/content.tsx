@@ -72,26 +72,11 @@ export const Content = () => (
                      },
                   }}
                >
-                  Available Balance
+                  Cluster Metrics (TITLE HERE)
                </Text>
-               <Flex
-                  css={{
-                     'gap': '$10',
-                     'flexWrap': 'wrap',
-                     'justifyContent': 'center',
-                     '@sm': {
-                        flexWrap: 'nowrap',
-                     },
-                  }}
-                  direction={'row'}
-               >
-                  <CardBalance1 />
-                  <CardBalance2 />
-                  <CardBalance3 />
-               </Flex>
+               <GrafDashboard />
             </Box>
 
-      
          </Flex>
       </Flex>
       {/* <GrafDashboard /> */}

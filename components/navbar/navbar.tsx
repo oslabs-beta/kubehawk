@@ -47,7 +47,7 @@ export const NavbarWrapper = ({children}: Props) => {
          >
             {/* RIGHT SIDE CONTENT */}
             <Navbar.Content>
-               <BurguerButton />
+               <BurguerButton/>
             </Navbar.Content>
 
             {/* LEFT SIDE CONTENT */}
