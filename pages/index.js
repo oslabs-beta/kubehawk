@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
-import StateContext from '../context/AppStateProvider';
+import StateContext from '../context/StateContext';
 import Dashboard from '../components/dashboard';
 
 function DisplayDashboard() {
-  const [componentState, setComponentState] = useState({})
+  const [componentState, setComponentState] = useState({
+    clusters: [],
+    currentTab: {},
+  })
 
   return (
     <>
     <StateContext.Provider value={{ componentState, setComponentState }}>
-    <Dashboard />
+    <Dashboard componentState={componentState} />
     </StateContext.Provider>
     </>
   );

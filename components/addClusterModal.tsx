@@ -1,6 +1,6 @@
 import React, { ChangeEvent, MouseEvent, useContext } from "react";
 import { Modal, Button, Text, Input, Row, Checkbox } from "@nextui-org/react";
-import StateContext from "../context/AppStateProvider";
+import StateContext from "../context/StateContext";
 export default function ClusterModal() {
   const [visible, setVisible] = React.useState(false);
   const handler = () => setVisible(true);

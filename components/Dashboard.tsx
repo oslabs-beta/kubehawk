@@ -1,7 +1,6 @@
 // Uses NextJS built-in types
 import { NextPage } from 'next';
 import dynamic from 'next/dynamic';
-
 import Navbar from '../components/Navbar';
 import LeftBar from '../components/LeftBar';
 import { useState } from 'react';
@@ -9,9 +8,14 @@ import ClusterNav from './ClusterTabs';
 import InputCluster from './InputCluster';
 import addCluster from './addClusterModal'
 import ClusterModal from './addClusterModal';
-const Dashboard: NextPage = () => {
-  const [clusterIPs, setClusterIPs] = useState(['http://34.123.191.58']);
-  const [activeTab, setActiveTab] = useState(clusterIPs[0]);
+interface DashboardProps {
+  clusters?: Array<{}>;
+  currentTab: {};
+}
+
+const Dashboard: NextPage<DashboardProps> = (props) => {
+  const [componentState, setComponentState] = useState({})
+  const [activeTab, setActiveTab] = useState(props.currentTab);
 
   const [selectedNavItem, setSelectedNavItem] = useState('health');
 
@@ -23,10 +27,7 @@ const Dashboard: NextPage = () => {
     setActiveTab(clusterIP);
   };
 
-  const addTab = (newClusterIP) => {
-    setClusterIPs([...clusterIPs, newClusterIP]);
-    setActiveTab(newClusterIP);
-  };
+
 
   const GrafDashboard = dynamic(() => import('../components/GrafDashboard'), {
     ssr: false,
@@ -40,10 +41,9 @@ const Dashboard: NextPage = () => {
     <div id="dash-container">
       <Navbar />
       <ClusterNav
-        clusterIPs={clusterIPs}
+        clusterIPs  = {props.clusters}
         activeTab={activeTab}
         onTabChange={handleTabChange}
-        onAddTab={addTab}
       />
       <div id="body-nav">
         <LeftBar onNavItemChange={handleLeftNavChange} />
