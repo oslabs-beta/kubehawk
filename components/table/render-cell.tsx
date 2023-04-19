@@ -1,6 +1,6 @@
 import {Col, Row, User, Text, Tooltip} from '@nextui-org/react';
 import React from 'react';
-import { AddCluster } from '../clusterlist/add-cluster';
+import  AddCluster  from '../clusterlist/add-cluster';
 import {DeleteIcon} from '../icons/table/delete-icon';
 import {EditIcon} from '../icons/table/edit-icon';
 import {clusters} from './data';

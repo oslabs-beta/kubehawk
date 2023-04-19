@@ -9,7 +9,7 @@ interface GrafDashboardProps {
 }
 export const GrafDashboard: React.FC<GrafDashboardProps> = ({ title }) => {
   const [selectedDashboard, setSelectedDashboard] = useState<any>(null);
-  const ipAddress: any = 'http://34.123.191.58';
+  const ipAddress: any = '34.123.191.58';
 
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export const GrafDashboard: React.FC<GrafDashboardProps> = ({ title }) => {
       {selectedDashboard && (
         <div>
           {selectedDashboard.urls.map((url: string) => (
-            <iframe key={url} src={`${ipAddress}${url}`} width="450" height="200"></iframe>
+            <iframe key={url} src={`http:// + ${ipAddress}${url}`} width="450" height="200"></iframe>
           ))}
         </div>
       )}

@@ -2,10 +2,15 @@ import {Table} from '@nextui-org/react';
 import React from 'react';
 import  AddCluster  from '../clusterlist/add-cluster';
 import {Box} from '../styles/box';
-import {columns, clusters} from './data';
+import {columns } from './data';
 import {RenderCell} from './render-cell';
+import { StateContext } from '../../context/StateContext';
+import { useContext } from 'react';
 
 export const TableWrapper = () => {
+   const { componentState, setComponentState } = useContext(StateContext)
+   const clusters = componentState.clusters
+   console.log("table clusters",clusters)
    return (
       <Box
          css={{

@@ -34,7 +34,7 @@ export const Content = () => (
             '@sm': {px: '$20'},
          }}
       >
-            <Collapse title={"Active Clusters"} shadow expanded>
+            <Collapse title={`Cluster1`} shadow expanded>
 
          <TableWrapper />
          </Collapse>

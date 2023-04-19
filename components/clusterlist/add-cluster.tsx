@@ -4,26 +4,26 @@ import { StateContext } from "../../context/StateContext";
 import { StateContextType } from "../../context/StateContext";
 import {dashTitles} from "../../context/StateContext"
 interface AppState {
-    clusters: { ipAddress: string; clusterName: string; }[];
-    currentTab: { ipAddress: string; clusterName: string; };
+    clusters: { name: string; IPaddress: string; }[];
+    currentTab: { id: number; name: string; IPaddress: string; };
     currentTitle: dashTitles;
   }
   
 //   const initialState: AppState = {
 //     clusters: [],
-//     currentTab: { ipAddress: '', clusterName: '' }
+//     currentTab: { IPaddress: '', name: '' }
 //   };
   
   export default function AddCluster() {
     const [visible, setVisible] = React.useState(false);
     const handler = () => setVisible(true);
   
-    const [ipAddress, setIpAddress] = React.useState<string>('');
-    const [clusterName, setClusterName] = React.useState<string>('');
-  
+    const [IPaddress, setIPaddress] = React.useState<string>('');
+    const [name, setClusterName] = React.useState<string>('');
     const { componentState, setComponentState }:StateContextType = useContext(StateContext)
-    const handleIpAddressChange = (e: ChangeEvent<HTMLInputElement>): void => {
-      setIpAddress(e.target.value);
+    const id = componentState.clusters.length
+    const handleIPaddressChange = (e: ChangeEvent<HTMLInputElement>): void => {
+      setIPaddress(e.target.value);
     };
     const handleClusterNameChange = (e: ChangeEvent<HTMLInputElement>): void => {
       setClusterName(e.target.value);
@@ -31,15 +31,16 @@ interface AppState {
     const closeHandler = () => {
         setComponentState((prevState: AppState) => {
           const { clusters } = prevState;
-          const newCluster = { ipAddress, clusterName };
+          const newCluster = { id, name, IPaddress };
           const newClusters = Array.isArray(clusters) ? [...clusters, newCluster] : [newCluster];
           console.log(componentState)
           return {
             ...prevState,
             clusters: newClusters,
             currentTab: {
-              ipAddress: ipAddress,
-              clusterName: clusterName
+               id: clusters.length,
+              name: name,
+              IPaddress: IPaddress
             }
           };
         });
@@ -76,7 +77,7 @@ interface AppState {
               size="lg"
               placeholder="Grafana Endpoint"
               aria-label="Grafana Endpoint"
-              onChange={handleIpAddressChange}
+              onChange={handleIPaddressChange}
             />
             <Input
               clearable

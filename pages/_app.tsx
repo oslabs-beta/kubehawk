@@ -26,7 +26,7 @@ function MyApp({Component, pageProps}: AppProps) {
    const [componentState, setComponentState] = useState<StateContextType['componentState']>(
       {
         clusters: [],
-        currentTab: { ipAddress: '', clusterName: '' },
+        currentTab: { name: '', IPaddress: '' },
         currentTitle: undefined
       }
     );

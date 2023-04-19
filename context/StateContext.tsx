@@ -7,7 +7,7 @@ export type dashTitles = 'AlertManager' | 'ClusterResources' | 'ClusterNetwork' 
 export type StateContextType = {
   componentState: {
     clusters: [];
-    currentTab: { ipAddress: string; clusterName: string; };
+    currentTab: { id?: number; name: string; IPaddress: string; };
     currentTitle?: dashTitles
   };
   setComponentState: (state: StateContextType['componentState']) => void;
