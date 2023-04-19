@@ -22,6 +22,7 @@ interface AppState {
     const [name, setClusterName] = React.useState<string>('');
     const { componentState, setComponentState }:StateContextType = useContext(StateContext)
     const id = componentState.clusters.length
+
     const handleIPaddressChange = (e: ChangeEvent<HTMLInputElement>): void => {
       setIPaddress(e.target.value);
     };

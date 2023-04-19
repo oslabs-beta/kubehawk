@@ -16,6 +16,27 @@ interface Props {
 
 export const RenderCell = ({cluster, columnKey}: Props) => {
    // @ts-ignore
+   console.log(cluster)
+   const id = cluster.id
+   const name:string = cluster.name
+   const IPaddress:string = cluster.IPaddress
+   const { componentState, setComponentState } = useContext(StateContext)
+   const setCurrentTab = ({id, name, IPaddress}) => {
+      setComponentState((prevState: AppState) => {
+        console.log(componentState)
+        return {
+          ...prevState,
+          currentTab: { 
+            id: id,
+            name: name,
+            IPaddress: IPaddress
+          }
+        };
+      });
+    };
+    const onClick = (id) => {
+      console.log(id)
+    }
    const cellValue = cluster[columnKey];
    switch (columnKey) {
       case 'name':
@@ -65,9 +86,8 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
                   <Tooltip
                      content="make this your active cluster"
                      color="error"
-                     onClick={() => console.log('cluster', cluster.id)}
                   >
-                     <Button>Select Cluster</Button>
+                     <Button onPress={() => setCurrentTab({id, name, IPaddress})}>Select Cluster</Button>
                   </Tooltip>
                </Col>
                <Col css={{d: 'flex'}}>

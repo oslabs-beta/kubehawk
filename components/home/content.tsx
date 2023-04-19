@@ -4,23 +4,13 @@ import {Box} from '../styles/box';
 import dynamic from 'next/dynamic';
 import {Flex} from '../styles/flex';
 import {TableWrapper} from '../table/table';
-import NextLink from 'next/link';
-import {CardBalance1} from './card-balance1';
-import {CardBalance2} from './card-balance2';
-import {CardBalance3} from './card-balance3';
-import {CardAgents} from './card-agents';
-import {CardTransactions} from './card-transactions';
 import AddCluster from '../clusterlist/add-cluster';
-
-
-const Chart = dynamic(
-   () => import('../charts/steam').then((mod) => mod.Steam),
-   {
-      ssr: false,
-   }
-);
-
-export const Content = () => (
+import { useContext } from 'react';
+import { StateContext } from '../../context/StateContext';
+export const Content = () => {
+   const {componentState, setComponentState} = useContext(StateContext)
+   const name:string | undefined = componentState.currentTab.name
+   return(
    <Box css={{overflow: 'hidden', height: '100%'}}>
        {/* Table Latest Users */}
        <Flex
@@ -34,7 +24,7 @@ export const Content = () => (
             '@sm': {px: '$20'},
          }}
       >
-            <Collapse title={`Cluster1`} shadow expanded>
+            <Collapse title={`${name}` || 'Welcome, please add a cluster'} shadow expanded>
 
          <TableWrapper />
          </Collapse>
@@ -67,6 +57,6 @@ export const Content = () => (
             <AddCluster/>
          </Flex>
       </Flex>
-      {/* <GrafDashboard /> */}
    </Box>
 );
+}
