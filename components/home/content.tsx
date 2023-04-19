@@ -1,7 +1,6 @@
 import React from 'react';
-import {Text, Link, Collapse} from '@nextui-org/react';
+import {Collapse} from '@nextui-org/react';
 import {Box} from '../styles/box';
-import dynamic from 'next/dynamic';
 import {Flex} from '../styles/flex';
 import {TableWrapper} from '../table/table';
 import AddCluster from '../clusterlist/add-cluster';
@@ -12,7 +11,6 @@ export const Content = () => {
    const name:string | undefined = componentState.currentTab.name
    return(
    <Box css={{overflow: 'hidden', height: '100%'}}>
-       {/* Table Latest Users */}
        <Flex
          direction={'column'}
          justify={'center'}

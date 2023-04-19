@@ -9,10 +9,6 @@ interface AppState {
     currentTitle: dashTitles;
   }
   
-//   const initialState: AppState = {
-//     clusters: [],
-//     currentTab: { IPaddress: '', name: '' }
-//   };
   
   export default function AddCluster() {
     const [visible, setVisible] = React.useState(false);
