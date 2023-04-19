@@ -22,22 +22,18 @@ export function DragnDrop() {
 
     const reader = new FileReader();
     reader.onload = (event) => {
-      console.log("event.target.result");
       setData(event.target.result);
     };
     reader.readAsText(file);
   };
 
   const handleSun = () => {
-    console.log(data);
     setSun(true);
   };
   const handleTree = () => {
-    console.log(data);
     setTree(true);
   };
   const handleForce = () => {
-    console.log(data);
     setForce(true);
   };
 
