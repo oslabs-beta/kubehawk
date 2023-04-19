@@ -33,7 +33,6 @@ interface AppState {
           const { clusters } = prevState;
           const newCluster = { id, name, IPaddress };
           const newClusters = Array.isArray(clusters) ? [...clusters, newCluster] : [newCluster];
-          console.log(componentState)
           return {
             ...prevState,
             clusters: newClusters,

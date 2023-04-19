@@ -15,14 +15,12 @@ interface Props {
 
 export const RenderCell = ({cluster, columnKey}: Props) => {
    // @ts-ignore
-   console.log(cluster)
    const id = cluster.id
    const name:string = cluster.name
    const IPaddress:string = cluster.IPaddress
    const { componentState, setComponentState } = useContext(StateContext)
    const setCurrentTab = ({id, name, IPaddress}) => {
       setComponentState((prevState: AppState) => {
-        console.log(componentState.currentTab)
         return {
           ...prevState,
           currentTab: { 

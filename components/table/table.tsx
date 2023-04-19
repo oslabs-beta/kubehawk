@@ -10,7 +10,6 @@ import { useContext } from 'react';
 export const TableWrapper = () => {
    const { componentState, setComponentState } = useContext(StateContext)
    const clusters = componentState.clusters
-   console.log(componentState)
    return (
       <Box
          css={{
