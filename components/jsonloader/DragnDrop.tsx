@@ -1,12 +1,8 @@
 import React, { useState } from "react";
-import { FileUploader } from "react-drag-drop-files";
-import SunburstChart from "../charts/SunburstChart";
-import TreeGraph from "../charts/TreeGraph";
-import ForceGraph from "../charts/ForceGraph";
 import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
 import { Text } from "@nextui-org/react";
-import { DropIt } from "./DropIt";
+import DnD from "./DnD";
 
 const fileTypes = ["JSON", "TXT"];
 
@@ -76,7 +72,7 @@ export function DragnDrop() {
           >
             Upload RBAC Data
           </Text>
-          <DropIt />
+            <DnD />
         </Flex>
       </Flex>
       
