@@ -56,7 +56,6 @@ Docker installed (if running locally)
 5. Add a cluster using the Grafana external IP retrieved in Step 3 
     <br/> 
     ![](/public/addCluster.gif)
-
 6. Drag and drop your exported RBAC bindings you received in Step 3 to visualize your RBAC metrics
     <br/>
     ![](/public/addRoleBindings.gif)
