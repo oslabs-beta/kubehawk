@@ -2,14 +2,15 @@ import React, { useState, useEffect } from 'react';
 import 'react-dropdown/style.css';
 import { grafanaUrls } from './grafanaUrlCreator';
 import {dashTitles} from "../../context/StateContext"
-
-
+import { StateContext } from '../../context/StateContext';
+import { useContext } from 'react';
 interface GrafDashboardProps {
   title: dashTitles;
 }
 export const GrafDashboard: React.FC<GrafDashboardProps> = ({ title }) => {
   const [selectedDashboard, setSelectedDashboard] = useState<any>(null);
-  const ipAddress: any = '34.123.191.58';
+  const { componentState, setComponentState } = useContext(StateContext)
+  const IPaddress:string = componentState.currentTab.IPaddress
 
 
   useEffect(() => {
@@ -21,7 +22,7 @@ export const GrafDashboard: React.FC<GrafDashboardProps> = ({ title }) => {
       {selectedDashboard && (
         <div>
           {selectedDashboard.urls.map((url: string) => (
-            <iframe key={url} src={`http:// + ${ipAddress}${url}`} width="450" height="200"></iframe>
+            <iframe key={url} src={`http://` + `${IPaddress}${url}`} width="450" height="200"></iframe>
           ))}
         </div>
       )}
