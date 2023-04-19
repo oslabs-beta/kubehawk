@@ -133,14 +133,14 @@
         kubectl edit svc stable-grafana -n prometheus
 
 3. In order to make prometheus and grafana available outside the cluster, change type from ClusterIP to LoadBalancer.
-        <img src="./readMeStaticFiles/loadBalancer.png">
+        <img src="./public/readMeStaticFiles/loadBalancer.png">
 
 3. Check if the services were successfully changed 
 
         kubectl get svc -n prometheus
 
 4. You can see that the services are successfully changed to LoadBalancer, and you can also grab the external IP of your Grafana Service. This is important as you will import this to external IP into our application.
-        <img src="./readMeStaticFiles/exposedIps.png">
+        <img src="./public/readMeStaticFiles/exposedIps.png">
 
 5. Delete the old pods that are running the old clusterIP configurations. 
     * This will display the name of the current pods. Copy the full name of the prometheus-grafana pod.
