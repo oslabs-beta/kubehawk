@@ -55,10 +55,12 @@ Docker installed (if running locally)
     `npm run dev`
 5. Add a cluster using the Grafana external IP retrieved in Step 3 
     <br/> 
-    ![](/public/addCluster.gif)
+    <img src="/public/addCluster.gif" width="500" height="400">
+
 6. Drag and drop your exported RBAC bindings you received in Step 3 to visualize your RBAC metrics
     <br/>
-    ![](/public/addRoleBindings.gif)
+    <img src="/public/addRoleBindings.gif" width="500" height="400">
+
 
 # Contribution
 Contributions are a great way to contribute to the open source community as a whole. If you'd like to contribute to Kubehawk, please follow the steps below to get started.
