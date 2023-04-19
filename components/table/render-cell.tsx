@@ -7,33 +7,36 @@ import {IconButton} from './table.styled';
 import { StateContext } from '../../context/StateContext';
 import { useContext } from 'react';
 
-
+interface currentTab {
+   id: number;
+   name: string;
+   IPaddress: string;
+}
 interface Props {
    cluster: typeof clusters[number];
    columnKey?: string | React.Key;
 }
 
+
 export const RenderCell = ({cluster, columnKey}: Props) => {
    // @ts-ignore
-   const id = cluster.id
+   const id:number | undefined = cluster.id
    const name:string = cluster.name
    const IPaddress:string = cluster.IPaddress
    const { componentState, setComponentState } = useContext(StateContext)
-   const setCurrentTab = ({id, name, IPaddress}) => {
-      setComponentState((prevState: AppState) => {
-        return {
-          ...prevState,
-          currentTab: { 
-            id: id,
-            name: name,
-            IPaddress: IPaddress
-          }
-        };
-      });
-    };
-    const onClick = (id) => {
-      console.log(id)
-    }
+
+   const setCurrentTab = ({id, name, IPaddress}:currentTab) => {
+   setComponentState((prevState) => {
+      return {
+         ...prevState,
+         currentTab: { 
+         id: id,
+         name: name,
+         IPaddress: IPaddress
+         }
+      };
+   });
+   };
    const cellValue = cluster[columnKey];
    switch (columnKey) {
       case 'name':
@@ -72,6 +75,7 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
             >
                <Col css={{d: 'flex'}}>
                   <Tooltip content="Edit cluster">
+                     
                      <IconButton
                         onClick={() => console.log('Edit cluster', cluster.id)}
                      >
@@ -80,12 +84,11 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
                   </Tooltip>
                </Col>
                <Col css={{d: 'flex'}}>
-                  <Tooltip
-                     content="make this your active cluster"
-                     color="error"
-                  >
-                     <Button onPress={() => setCurrentTab({id, name, IPaddress})}>Select Cluster</Button>
-                  </Tooltip>
+               <Tooltip color="error">
+                     <Button onPress={() => setCurrentTab({id, name, IPaddress})}>
+                     Select Cluster
+                     </Button>
+               </Tooltip>
                </Col>
                <Col css={{d: 'flex'}}>
                   <Tooltip

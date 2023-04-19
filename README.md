@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="350" src="src/assets/prevue-large-green-bottom.png">
+  <img width="350" src="./public/kubehawklogo.png">
   <h1 align="center">KubeHawk </h1>
 </p>
 
@@ -64,6 +64,13 @@ Contributions are a great way to contribute to the open source community as a wh
 4. Push to the Branch (`git push origin feature/yourNewFeature`)
 5. Open a Pull Request
 
+# KubeHawk Team
+| Developed By       | Github          | LinkedIn        |
+| :------------------: | :-------------: | :-------------: |
+| Steven Wu | [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenox7) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wu-steven/) |
+| Kyle Brandt | [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/knb47) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kylenbrandt/) |
+| PJ Bannon | [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yomkool) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulbannon/) |
+| Spencer White | [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sffw) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/spencerffwhite/) |
 # License
 
 Kubehawk is designed under the [MIT License](License.txt)
