@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { FileUploader } from 'react-drag-drop-files';
 import dynamic from 'next/dynamic';
+import {Box} from '../styles/Box'
+import {Flex} from '../styles/Flex'
+
 
 const SunburstChart = dynamic(() => import('../charts/SunburstChart'));
 
@@ -26,10 +29,10 @@ function DnD() {
   };
 
   return (
-    <>
+<>
       <FileUploader handleChange={handleChange} name='file' types={fileTypes} />
       {sun && <SunburstChart roles={JSON.parse(data)} />}
-    </>
+      </>
   );
 }
 
