@@ -88,11 +88,9 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
                </Col>
                <Col css={{d: 'flex'}}>
                <Tooltip color="error">
-                  {IPaddress !== currentIP ? (
                      <Button onPress={() => setCurrentTab({id, name, IPaddress})}>
                      Select Cluster
                      </Button>
-                  ) : null}
                </Tooltip>
                </Col>
                <Col css={{d: 'flex'}}>
