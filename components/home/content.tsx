@@ -25,7 +25,6 @@ export const Content = () => {
          }}
       >
             <Collapse title={`${name}` || 'Welcome, please add a cluster'} shadow expanded>
-
          <TableWrapper />
          </Collapse>
       </Flex>
