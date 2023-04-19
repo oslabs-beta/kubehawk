@@ -22,7 +22,7 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
    const { componentState, setComponentState } = useContext(StateContext)
    const setCurrentTab = ({id, name, IPaddress}) => {
       setComponentState((prevState: AppState) => {
-        console.log(componentState)
+        console.log(componentState.currentTab)
         return {
           ...prevState,
           currentTab: { 
