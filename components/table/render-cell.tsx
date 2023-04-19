@@ -1,4 +1,4 @@
-import {Col, Row, User, Text, Tooltip} from '@nextui-org/react';
+import {Col, Row, Button, Text, Tooltip} from '@nextui-org/react';
 import React from 'react';
 import  AddCluster  from '../clusterlist/add-cluster';
 import {DeleteIcon} from '../icons/table/delete-icon';
@@ -59,6 +59,15 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
                      >
                         <EditIcon size={20} fill="#979797" />
                      </IconButton>
+                  </Tooltip>
+               </Col>
+               <Col css={{d: 'flex'}}>
+                  <Tooltip
+                     content="make this your active cluster"
+                     color="error"
+                     onClick={() => console.log('cluster', cluster.id)}
+                  >
+                     <Button>Select Cluster</Button>
                   </Tooltip>
                </Col>
                <Col css={{d: 'flex'}}>
