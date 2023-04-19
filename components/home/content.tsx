@@ -6,9 +6,10 @@ import {TableWrapper} from '../table/table';
 import AddCluster from '../clusterlist/add-cluster';
 import { useContext } from 'react';
 import { StateContext } from '../../context/StateContext';
+
 export const Content = () => {
    const {componentState, setComponentState} = useContext(StateContext)
-   const name:string | undefined = componentState.currentTab.name
+   const name: string | undefined = componentState.currentTab.name
    return(
    <Box css={{overflow: 'hidden', height: '100%'}}>
        <Flex
@@ -22,7 +23,7 @@ export const Content = () => {
             '@sm': {px: '$20'},
          }}
       >
-            <Collapse title={`${name}` || 'Welcome, please add a cluster'} shadow expanded>
+            <Collapse key={name} title={`${name}` || 'Welcome, please add a cluster'} shadow expanded>
          <TableWrapper />
          </Collapse>
       </Flex>
