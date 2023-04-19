@@ -55,11 +55,11 @@ Docker installed (if running locally)
     `npm run dev`
 5. Add a cluster using the Grafana external IP retrieved in Step 3 
     <br/> 
-    <img src="/public/addCluster.gif" width="500" height="400">
+    <img src="/public/addCluster.gif" width="800" height="400">
 
 6. Drag and drop your exported RBAC bindings you received in Step 3 to visualize your RBAC metrics
     <br/>
-    <img src="/public/addRoleBindings.gif" width="500" height="400">
+    <img src="/public/addRoleBindings.gif" width="800" height="400">
 
 
 # Contribution
