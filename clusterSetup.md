@@ -158,7 +158,7 @@
 
 2. Google Cloud Users
     If you are using Google Cloud, you will need to download this file onto your local host
-        <img src='./readMeStaticFiles/downloadRoleBindings.png'>
+        <img src='./public/readMeStaticFiles/downloadRoleBindings.png'>
 
     Input the filename you specified and then you will be able to download the JSON file to view in our app.
 
