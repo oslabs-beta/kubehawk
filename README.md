@@ -1,7 +1,6 @@
 
 <p align="center">
   <img width="350" src="./public/kubehawklogo.png">
-  <h1 align="center">KubeHawk </h1>
 </p>
 
 
