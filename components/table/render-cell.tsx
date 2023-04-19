@@ -7,26 +7,26 @@ import {IconButton} from './table.styled';
 import { StateContext } from '../../context/StateContext';
 import { useContext } from 'react';
 
-
+interface currentTab {
+   id: number;
+   name: string;
+   IPaddress: string;
+}
 interface Props {
    cluster: typeof clusters[number];
    columnKey?: string | React.Key;
 }
 
+
 export const RenderCell = ({cluster, columnKey}: Props) => {
    // @ts-ignore
-   console.log(cluster)
    const id:number | undefined = cluster.id
    const name:string = cluster.name
    const IPaddress:string = cluster.IPaddress
    const { componentState, setComponentState } = useContext(StateContext)
-   const currentIP:string | '' = componentState.currentTab.IPaddress
-   const handleClick = () => {
-      setCurrentTab({id, name, IPaddress});
-    };
 
-   const setCurrentTab = ({id, name, IPaddress}) => {
-   setComponentState((prevState: AppState) => {
+   const setCurrentTab = ({id, name, IPaddress}:currentTab) => {
+   setComponentState((prevState) => {
       return {
          ...prevState,
          currentTab: { 
@@ -37,9 +37,6 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
       };
    });
    };
-    const onClick = (id) => {
-      console.log(id)
-    }
    const cellValue = cluster[columnKey];
    switch (columnKey) {
       case 'name':
