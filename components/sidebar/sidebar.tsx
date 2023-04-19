@@ -65,7 +65,6 @@ export const SidebarWrapper = () => {
                <Sidebar.Body className="body sidebar">
                   <SidebarMenu title="Clusters">
                      <SidebarItem
-                        isActive={router.pathname === '/clusters'}
                         title="Cluster List"
                         icon={<AccountsIcon />}
                         href="clusters"
@@ -82,24 +81,28 @@ export const SidebarWrapper = () => {
                         title="Cluster Resources"
                         icon={<CustomersIcon />}
                         dashTitle="ClusterResources"
+                        href='dashboard'
 
                      />
                      <SidebarItem
                         title="Cluster Network"
                         icon={<ProductsIcon />}
                         dashTitle="ClusterNetwork"
+                        href='dashboard'
 
                      />
                      <SidebarItem
                         title="Node Exporter"
                         icon={<ReportsIcon />}
                         dashTitle="NodeExporter"
+                        href='dashboard'
 
                      />
                      <SidebarItem
                         title="Kubelet"
                         icon={<ReportsIcon />}
                         dashTitle="Kubelet"
+                        href='dashboard'
 
                      />
                </SidebarMenu> 
