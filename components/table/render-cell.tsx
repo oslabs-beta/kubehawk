@@ -5,10 +5,13 @@ import {DeleteIcon} from '../icons/table/delete-icon';
 import {EditIcon} from '../icons/table/edit-icon';
 import {clusters} from './data';
 import {IconButton} from './table.styled';
+import { StateContext } from '../../context/StateContext';
+import { useContext } from 'react';
+
 
 interface Props {
    cluster: typeof clusters[number];
-   columnKey: string | React.Key;
+   columnKey?: string | React.Key;
 }
 
 export const RenderCell = ({cluster, columnKey}: Props) => {

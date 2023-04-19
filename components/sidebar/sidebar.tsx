@@ -21,9 +21,7 @@ import {useRouter} from 'next/router';
 export const SidebarWrapper = () => {
    const router = useRouter();
    const {collapsed, setCollapsed} = useSidebarContext();
-   const handleclicky = ()=>{
-      console.log('IT CLICKED')
-   }
+
 
    return (
       <Box
@@ -75,35 +73,30 @@ export const SidebarWrapper = () => {
                   </SidebarMenu>
                    <SidebarMenu title="Observable Metrics">    
                      <SidebarItem
-                        isActive={router.pathname === '/'}
                         title="Alert Manager"
                         icon={<PaymentsIcon />}
                         dashTitle="AlertManager"
                         href='dashboard'
                      />
                      <SidebarItem
-                        isActive={router.pathname === '/customers'}
                         title="Cluster Resources"
                         icon={<CustomersIcon />}
                         dashTitle="ClusterResources"
 
                      />
                      <SidebarItem
-                        isActive={router.pathname === '/products'}
                         title="Cluster Network"
                         icon={<ProductsIcon />}
                         dashTitle="ClusterNetwork"
 
                      />
                      <SidebarItem
-                        isActive={router.pathname === '/reports'}
                         title="Node Exporter"
                         icon={<ReportsIcon />}
                         dashTitle="NodeExporter"
 
                      />
                      <SidebarItem
-                        isActive={router.pathname === '/reports'}
                         title="Kubelet"
                         icon={<ReportsIcon />}
                         dashTitle="Kubelet"
@@ -114,8 +107,7 @@ export const SidebarWrapper = () => {
                      <SidebarItem
                         title="Roles Based Access"
                         icon={<ChangeLogIcon />}
-                        isActive={router.pathname === '/dragndrop'}
-                        href='/dragndrop'
+                        href='dragndrop'
 
                      />
                   </SidebarMenu>
