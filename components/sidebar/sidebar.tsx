@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Box} from '../styles/box';
 import {Sidebar} from './sidebar.styles';
-import {Tooltip, Text, Link} from '@nextui-org/react';
+import {Tooltip, Text, Link, Button} from '@nextui-org/react';
 import {Flex} from '../styles/flex';
 import {GithubIcon} from '../icons/navbar/github-icon';
 import {PaymentsIcon} from '../icons/sidebar/payments-icon';
@@ -10,12 +10,13 @@ import {CustomersIcon} from '../icons/sidebar/customers-icon';
 import {ProductsIcon} from '../icons/sidebar/products-icon';
 import {ReportsIcon} from '../icons/sidebar/reports-icon';
 import {SettingsIcon} from '../icons/sidebar/settings-icon';
-import {CollapseItems} from './collapse-items';
 import {SidebarItem} from './sidebar-item';
 import {SidebarMenu} from './sidebar-menu';
 import {FilterIcon} from '../icons/sidebar/filter-icon';
+import { ChangeLogIcon } from '../icons/sidebar/changelog-icon';
 import {useSidebarContext} from '../layout/layout-context';
-import {ChangeLogIcon} from '../icons/sidebar/changelog-icon';
+import { ViewIcon } from '../icons/sidebar/view-icon';
+// import { KubeHawkIcon } from '../icons/sidebar/kubehawk-icon'; 
 import {useRouter} from 'next/router';
 
 export const SidebarWrapper = () => {
@@ -40,6 +41,9 @@ export const SidebarWrapper = () => {
             <Box>
                <Flex align={'center'} css={{gap: '$7'}}>
                   <Box>
+                     <Link
+                     href='/'
+                     >
                      <Text
                         h3
                         size={'$xl'}
@@ -53,6 +57,7 @@ export const SidebarWrapper = () => {
                      >
                         KubeHawk
                      </Text>
+                     </Link>
                   </Box>
                </Flex>
             </Box>
@@ -100,7 +105,7 @@ export const SidebarWrapper = () => {
                      />
                      <SidebarItem
                         title="Kubelet"
-                        icon={<ReportsIcon />}
+                        icon={<ViewIcon />}
                         dashTitle="Kubelet"
                         href='dashboard'
 
@@ -119,7 +124,7 @@ export const SidebarWrapper = () => {
                         href="https://kubernetes.io/docs/home/"
                         target={'_blank'}>
                            <Text>
-                              Kubernetes Docs
+                              <Button color="gradient" >Kubernetes Docs</Button>
                            </Text>
                         </Link>
                   </SidebarMenu>

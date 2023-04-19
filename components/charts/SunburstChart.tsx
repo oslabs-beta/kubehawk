@@ -64,7 +64,7 @@ const SunburstChart = (props) => {
       (chartRef.current);
   }, []);
 
-  return <div ref={chartRef} />;
+  return <div ref={chartRef} style={{ position: 'flex'} }/>;
   
 };
 
