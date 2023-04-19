@@ -50,9 +50,11 @@ Docker installed (if running locally)
 3. Make sure your Kubernetes cluster is up and running with Prometheus and Grafana exposed.
     * [Expose your Prometheus and Grafana endpoints](https://github.com/oslabs-beta/kubehawk/blob/main/clusterSetup.md)
     * [Export your RBAC bindings to your local computer](https://github.com/oslabs-beta/kubehawk/blob/main/clusterSetup.md#export-your-rbac-bindings-to-your-localhost)
-
-4. Run our program and visit the local <br/>
+4. Run our program and visit the localhost it is being hosted on. <br/>
     `npm run dev`
+5. [Add a cluster using the Grafana external IP retrieved in Step 3](/public/addCluster.gif)
+
+6. [Drag and drop your exported RBAC bindings you received in Step 3 to visualize your RBAC metrics](/public/addRoleBindings.gif)
 
 # Contribution
 Contributions are a great way to contribute to the open source community as a whole. If you'd like to contribute to Kubehawk, please follow the steps below to get started.
