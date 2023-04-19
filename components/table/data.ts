@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { StateContext } from "../../context/StateContext";
 export const columns = [
    {name: 'NAME', uid: 'name'},
    {name: 'IP Address', uid: 'IPaddress'},

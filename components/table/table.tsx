@@ -1,5 +1,6 @@
 import {Table} from '@nextui-org/react';
 import React from 'react';
+import  AddCluster  from '../clusterlist/add-cluster';
 import {Box} from '../styles/box';
 import {columns, clusters} from './data';
 import {RenderCell} from './render-cell';

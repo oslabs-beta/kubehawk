@@ -6,7 +6,7 @@ import { useContext } from "react"
 function Dashboard() {
   const { componentState, setComponentState} = useContext(StateContext)
   const title: any = componentState.currentTitle
-  console.log(componentState.currentTitle)
+  const clusters = componentState.clusters
   return (
     <GrafDashboard title={title} />
   )

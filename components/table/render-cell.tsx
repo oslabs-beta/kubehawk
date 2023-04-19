@@ -1,10 +1,10 @@
 import {Col, Row, User, Text, Tooltip} from '@nextui-org/react';
 import React from 'react';
+import { AddCluster } from '../clusterlist/add-cluster';
 import {DeleteIcon} from '../icons/table/delete-icon';
 import {EditIcon} from '../icons/table/edit-icon';
-import {EyeIcon} from '../icons/table/eye-icon';
 import {clusters} from './data';
-import {IconButton, StyledBadge} from './table.styled';
+import {IconButton} from './table.styled';
 
 interface Props {
    cluster: typeof clusters[number];
@@ -49,7 +49,6 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
                align="center"
                css={{'gap': '$8', '@md': {gap: 0}}}
             >
-
                <Col css={{d: 'flex'}}>
                   <Tooltip content="Edit cluster">
                      <IconButton
@@ -70,6 +69,7 @@ export const RenderCell = ({cluster, columnKey}: Props) => {
                      </IconButton>
                   </Tooltip>
                </Col>
+
             </Row>
          );
       default:

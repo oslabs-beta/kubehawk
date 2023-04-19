@@ -11,7 +11,7 @@ import {UsersIcon} from '../icons/breadcrumb/users-icon';
 import {SettingsIcon} from '../icons/sidebar/settings-icon';
 import {Flex} from '../styles/flex';
 import {TableWrapper} from '../table/table';
-import {AddCluster} from './add-cluster'
+import AddCluster from './add-cluster';
 
 export const Clusters = () => {
    return (

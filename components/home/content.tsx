@@ -10,6 +10,7 @@ import {CardBalance2} from './card-balance2';
 import {CardBalance3} from './card-balance3';
 import {CardAgents} from './card-agents';
 import {CardTransactions} from './card-transactions';
+import AddCluster from '../clusterlist/add-cluster';
 
 
 const Chart = dynamic(
@@ -33,7 +34,8 @@ export const Content = () => (
             '@sm': {px: '$20'},
          }}
       >
-            <Collapse title="Active Clusters" shadow>
+            <Collapse title={"Active Clusters"} shadow expanded>
+
          <TableWrapper />
          </Collapse>
       </Flex>
@@ -52,6 +54,7 @@ export const Content = () => (
          }}
          justify={'center'}
       >
+
          <Flex
             css={{
                'px': '$12',
@@ -61,22 +64,7 @@ export const Content = () => (
             }}
             direction={'column'}
          >
-            {/* Card Section Top */}
-            <Box>
-               <Text
-                  h3
-                  css={{
-                     'textAlign': 'center',
-                     '@sm': {
-                        textAlign: 'inherit',
-                     },
-                  }}
-               >
-                  Cluster Metrics (TITLE HERE)
-               </Text>
-               {/* <GrafDashboard /> */}
-            </Box>
-
+            <AddCluster/>
          </Flex>
       </Flex>
       {/* <GrafDashboard /> */}
