@@ -79,7 +79,7 @@ Contributions are a great way to contribute to the open source community as a wh
 | Spencer White | [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sffw) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/spencerffwhite/) |
 # License
 
-Kubehawk is designed under the [MIT License](License.txt)
+Kubehawk is designed under the [MIT License](License)
 
 
 
