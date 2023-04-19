@@ -55,5 +55,4 @@ export const grafanaUrls = {
         urls: createFrames('3138fa155d5915769fbded898ac09fd9', 'kubernetes-kubelet', 25 )
     }
     
-    // add more dashboards here
   };
