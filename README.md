@@ -1,7 +1,6 @@
 
 <p align="center">
-  <img width="350" src="src/assets/prevue-large-green-bottom.png">
-  <h1 align="center">KubeHawk </h1>
+  <img width="350" src="./public/kubehawklogo.png">
 </p>
 
 
@@ -21,7 +20,6 @@ Check out our [website](https://www.kubehawk.com)!
 [![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 [![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)](https://prometheus.io/)
 [![Cypress](https://img.shields.io/badge/cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
 </div>
 
@@ -49,11 +47,19 @@ Docker installed (if running locally)
 2. Install dependencies: <br/>
    `npm install`
 3. Make sure your Kubernetes cluster is up and running with Prometheus and Grafana exposed.
-    * [Expose your Prometheus and Grafana endpoints](https://github.com/oslabs-beta/kubehawk/blob/next-dashboard/clusterSetup.md)
-    * [Export your RBAC bindings to your local computer](https://github.com/oslabs-beta/kubehawk/blob/next-dashboard/clusterSetup.md#export-your-rbac-bindings-to-your-localhost)
-
-4. Run our program and visit the local <br/>
+    * [Expose your Prometheus and Grafana endpoints](https://github.com/oslabs-beta/kubehawk/blob/main/clusterSetup.md)
+    * [Export your RBAC bindings to your local computer](https://github.com/oslabs-beta/kubehawk/blob/main/clusterSetup.md#export-your-rbac-bindings-to-your-localhost)
+4. Run our program and visit the localhost it is being hosted on.
+     <br/>
     `npm run dev`
+5. Add a cluster using the Grafana external IP retrieved in Step 3 
+    <br/> 
+    <img src="/public/addCluster.gif" width="800" height="400">
+
+6. Drag and drop your exported RBAC bindings you received in Step 3 to visualize your RBAC metrics
+    <br/>
+    <img src="/public/addRoleBindings.gif" width="800" height="400">
+
 
 # Contribution
 Contributions are a great way to contribute to the open source community as a whole. If you'd like to contribute to Kubehawk, please follow the steps below to get started.
@@ -73,7 +79,7 @@ Contributions are a great way to contribute to the open source community as a wh
 | Spencer White | [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sffw) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/spencerffwhite/) |
 # License
 
-Kubehawk is designed under the [MIT License](License.txt)
+Kubehawk is designed under the [MIT License](License)
 
 
 
