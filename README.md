@@ -61,8 +61,8 @@ Docker installed (if running locally)
     <img src="/public/addRoleBindings.gif" width="800" height="400">
 
 
-# Contribution
-Contributions are a great way to contribute to the open source community as a whole. If you'd like to contribute to Kubehawk, please follow the steps below to get started.
+# Contributing
+Contributions are a great way to contribute to the open source community as a whole. If you'd like to start a new PR, we recommend creating an issue for discussion first. This lets us open a conversation, ensuring work is not duplicated unnecessarily and that the proposed PR is a fix or feature we're actively looking to add. If you'd like to contribute to Kubehawk, please follow the steps below to get started.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/yourNewFeature`)
